@@ -99,7 +99,7 @@ body.theme-dark {
 }
 
 .intro-copy {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   max-width: 760px;
   color: var(--bs-secondary-color);
   text-align: center;
@@ -342,8 +342,43 @@ body.theme-dark {
     z-index: 2;
   }
 
+  header.container {
+    padding-top: 1.35rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .header-top {
+    align-items: flex-start;
+  }
+
+  .brand-title {
+    font-size: clamp(1.8rem, 7vw, 2.2rem);
+  }
+
+  .intro-copy {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    max-width: 95%;
+  }
+
+  .search-shell {
+    padding: 0.9rem 1rem;
+  }
+
   .chip-row {
+    justify-content: center;
+    gap: 0.6rem;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .footer-bar {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-bar p,
+  .footer-bar a {
+    width: 100%;
   }
 }
