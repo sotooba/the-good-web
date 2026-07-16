@@ -6,8 +6,8 @@ Optimized for mobile touchscreens first, scaling elegantly up to desktop viewpor
 ### Minimal Hero & Header
 * No massive or bulky hero blocks. 
 * Implement a simple, cozy header featuring a styled serif text logo ("The Good Web.") and an instant utility search input.
-* **Header Collapse on Mobile**: In desktop view, a wide search text field must sit visible in the header. In mobile layout view, the text field collapses into a simple magnifying glass icon button that opens a clean search drawer/overlay when tapped.
-* Directly beneath the header, add a clean, friendly, one-line sentence that instantly outlines the value proposition: "A quiet corner of the internet gathering useful websites that don't require your money or a credit card."
+* **Header Collapse on Mobile**: In both mobile and desktop view, a wide search text field must sit visible in the header.
+* Directly beneath the header, add a clean, friendly, one-line sentence that instantly outlines the value proposition: "A quiet corner of the internet gathering useful websites that don't require your money."
 
 ### Grid & Mobile Padding Layout
 * **Bootstrap Card Grid**: You must implement a strict, responsive 3-column Bootstrap layout structure using card decks. Use the exact classes: `row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4`.
@@ -54,19 +54,21 @@ Every individual website listing must be wrapped inside a standard Bootstrap car
 All styling declarations must exist within `src/css/style.css`. Use strict CSS custom variables mapped to Bootstrap's `data-bs-theme` properties. Pure white (`#ffffff`) or pure black (`#000000`) bases are prohibited.
 
 ### Light Mode (`data-bs-theme="light"`)
-* Background: `#fbf9f4` (Cozy warm off-white)
-* Main Text: `#2b2d42` (Dark charcoal)
-* Muted Text: `#6c757d` (Soft grey)
-* Card Background: `#ffffff` (Crisp white)
-* Structural Borders: `#eae6df` (Warm sand divider)
-* Active Accents: `#d96b43` (Terracotta orange)
-* Signup Pill Background: `#f0ede6` (Subtle sand tint)
+* **Background**: `#fcfbfa` (A bright, crisp ivory-warm white canvas)
+* **Main Text**: `#1e2029` (Deep ink charcoal for extreme text-to-background contrast and comfortable reading)
+* **Muted Text**: `#4a4e69` (Dark slate-grey that makes card descriptions perfectly legible)
+* **Card Background**: `#ffffff` (Pure, clean white card base)
+* **Structural Borders**: `#dcd7cc` (A distinct, defined warm sand border to crisply frame each card element)
+* **Active Accents**: `#c84b23` (Deep, high-contrast terracotta orange for focused elements and vector shapes)
+* **Signup Pill Background**: `#f2efe9` (Subtle sand-tint indicator pill background)
+* **Button Outline**: `#1e2029` (Strong, bold outline matching main text)
 
 ### Cozy Dark Mode (`data-bs-theme="dark"`)
-* Background: `#1a1816` (Dark cocoa charcoal)
-* Main Text: `#f4ebd9` (Reading paper cream)
-* Muted Text: `#a89f91` (Warm sand)
-* Card Background: `#24211e` (Sepia tint grey)
-* Structural Borders: `#332f2a` (Deep earth divider)
-* Active Accents: `#e08253` (Vibrant terracotta amber)
-* Signup Pill Background: `#2d2925` (Subtle deep brown tint)
+* **Background**: `#151413` (Deep obsidian espresso charcoal)
+* **Main Text**: `#fbf7f0` (Bright reading paper cream for high text readability in dark environments)
+* **Muted Text**: `#b5ae9f` (Highly visible warm sand for clear, effortless text descriptions)
+* **Card Background**: `#1e1c1a` (A distinct chocolate-charcoal card background to sharply pop against the page base)
+* **Structural Borders**: `#3d3731` (Strong structural borders to completely stop cards from bleeding into shadows)
+* **Active Accents**: `#f27a43` (Sharp, vibrant terracotta amber for vector boundaries and targets)
+* **Signup Pill Background**: `#2b2723` (Deep contrasting brown tint pill background)
+* **Button Outline**: `#fbf7f0` (Sharp light text outline)

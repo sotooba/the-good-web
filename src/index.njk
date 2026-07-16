@@ -1,0 +1,104 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <div class="page-shell">
+    <header class="container py-4 py-lg-5">
+      <div class="header-top d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 px-3 px-md-0">
+        <div>
+          <p class="eyebrow mb-2">The Good Web</p>
+          <h1 class="brand-title mb-0">The Good Web.</h1>
+        </div>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color theme">
+          <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.75v2.5M12 17.75v2.5M4.75 12H2.25M21.75 12h-2.5M6.83 6.83l-1.77-1.77M18.94 18.94l-1.77-1.77M6.83 17.17l-1.77 1.77M18.94 5.06l-1.77 1.77M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18.5 14.9A7.25 7.25 0 0 1 9.1 5.5 7.25 7.25 0 1 0 18.5 14.9Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="px-3 px-md-0 mt-4">
+        <p class="intro-copy mx-auto mb-4">A quiet corner of the internet gathering useful websites that don't require your money.</p>
+      </div>
+      <div class="px-3 px-md-0 mt-2">
+        <div class="search-shell w-100">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.5 4.75a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5ZM15.56 15.56 19.25 19.25" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <input type="text" class="search-input" placeholder="Search useful sites" data-search-input>
+        </div>
+      </div>
+      <div class="chip-row px-3 px-md-0">
+        <button class="chip active" type="button" data-category="all">All Categories</button>
+        {% for category in websites %}
+          {% if loop.index <= 3 %}
+            <a class="chip chip-visible" href="#{{ category.category_slug }}" data-category="{{ category.category_slug }}">{{ category.category_name }}</a>
+          {% else %}
+            <a class="chip chip-hidden" href="#{{ category.category_slug }}" data-category="{{ category.category_slug }}" hidden>{{ category.category_name }}</a>
+          {% endif %}
+        {% endfor %}
+        {% if websites.length > 3 %}
+          <button class="chip chip-toggle" type="button" data-chip-toggle>See more</button>
+        {% endif %}
+      </div>
+    </header>
+
+    <main class="container py-2 py-lg-4">
+      {% for category in websites %}
+        <section class="category-block mb-5 px-3 px-md-0" id="{{ category.category_slug }}" data-category-block="{{ category.category_slug }}">
+          <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2 mb-3">
+            <h2 class="section-title mb-0">{{ category.category_name }}</h2>
+            <p class="section-subtitle mb-0">{{ category.sites.length }} thoughtful picks</p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {% for site in category.sites %}
+              <div class="col">
+                <article class="card h-100 shadow-sm" data-card-search="{{ site.name }} {{ site.desc }} {{ category.category_name }}">
+                  <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex align-items-center gap-2 mb-3">
+                      <span class="icon-pill" aria-hidden="true">
+                        {% if site.icon == 'video' %}
+                          <svg viewBox="0 0 24 24" fill="none"><path d="M4.5 6.5h10a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-10a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1Zm11 3.5 4.5-2.5v8.5l-4.5-2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        {% elseif site.icon == 'film' %}
+                          <svg viewBox="0 0 24 24" fill="none"><path d="M4.5 5.5h15a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1h-15a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1Zm2 2.5v7m7-7v7m-7-3.5h15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                        {% elseif site.icon == 'palette' %}
+                          <svg viewBox="0 0 24 24" fill="none"><path d="M12 4.5a7.5 7.5 0 0 0-7.5 7.5c0 3.1 1.9 5.8 4.7 6.9a1 1 0 0 0 1.3-.6l.7-2.2a1 1 0 0 1 .8-.7c1.3-.2 2.3-1.2 2.3-2.5a3.1 3.1 0 0 0-3.1-3.1c-1.7 0-3.1 1.4-3.1 3.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        {% else %}
+                          <svg viewBox="0 0 24 24" fill="none"><path d="M12 4.5 5.5 8v8l6.5 3.5L18.5 16V8L12 4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        {% endif %}
+                      </span>
+                      <h3 class="h5 mb-0">{{ site.name }}</h3>
+                    </div>
+                    <p class="card-text text-muted small mb-4">{{ site.desc }}</p>
+                    <div class="card-footer d-flex justify-content-between align-items-center bg-transparent border-0 mt-auto px-0 py-0">
+                      <a class="btn btn-sm visit-link" href="{{ site.url }}" target="_blank" rel="noopener noreferrer">
+                        Visit Site
+                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M17 7H8.5M17 7v8.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </a>
+                      {% if site.requires_signup %}
+                        <span class="signup-pill">Requires Signup</span>
+                      {% endif %}
+                    </div>
+                  </div>
+                </article>
+              </div>
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </main>
+
+    <section class="container pb-5 px-3 px-md-0">
+      <div class="disclosure-card p-4 p-md-5">
+        <p class="eyebrow mb-2">Credits & Disclosures</p>
+        <h2 class="section-title mb-3">A brief note on the curation</h2>
+        <p class="mb-3">This directory gathers useful tools from public community lists and archives, with care and a human eye. We are not claiming ownership of every link, but we do try to keep the collection thoughtful and current.</p>
+      </div>
+    </section>
+
+    <footer class="container pb-5 px-3 px-md-0">
+      <div class="footer-bar d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 py-3">
+        <p class="mb-0">Made with care for the quiet corners of the internet.</p>
+        <a class="footer-link" href="https://github.com/sotooba/the-good-web" target="_blank" rel="noopener noreferrer">
+          View on GitHub
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M17 7H8.5M17 7v8.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </footer>
+
+  </div>
+{% endblock %}

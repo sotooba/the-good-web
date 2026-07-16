@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Good Web</title>
+    <meta name="description" content="A quiet corner of the internet gathering useful websites that don't require your money or a credit card.">
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const root = document.documentElement;
+      const storedTheme = localStorage.getItem('goodweb-theme');
+      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      const theme = storedTheme || systemTheme;
+      root.setAttribute('data-bs-theme', theme);
+      document.body.classList.add(theme === 'dark' ? 'theme-dark' : 'theme-light');
+
+      function syncSearchInputs(value) {
+        document.querySelectorAll('[data-search-input]').forEach((input) => {
+          input.value = value;
+        });
+      }
+
+      function applyFilters() {
+        const query = (document.querySelector('[data-search-input]')?.value || '').trim().toLowerCase();
+        const activeCategory = document.querySelector('.chip.active')?.dataset.category || 'all';
+        const categoryBlocks = document.querySelectorAll('[data-category-block]');
+
+        categoryBlocks.forEach((block) => {
+          const slug = block.dataset.categoryBlock;
+          const cards = block.querySelectorAll('[data-card-search]');
+          let visibleCards = 0;
+
+          cards.forEach((card) => {
+            const haystack = (card.dataset.cardSearch || '').toLowerCase();
+            const matchesQuery = !query || haystack.includes(query);
+            const matchesCategory = (!query && activeCategory === 'all') || activeCategory === 'all' || slug === activeCategory;
+            const isVisible = matchesQuery && matchesCategory;
+            card.closest('.col').style.display = isVisible ? '' : 'none';
+            if (isVisible) visibleCards += 1;
+          });
+
+          block.style.display = visibleCards > 0 ? '' : 'none';
+        });
+      }
+
+      document.querySelectorAll('[data-search-input]').forEach((input) => {
+        input.addEventListener('input', (event) => {
+          syncSearchInputs(event.target.value);
+          applyFilters();
+        });
+      });
+
+      document.querySelectorAll('.chip').forEach((chip) => {
+        chip.addEventListener('click', () => {
+          if (chip.dataset.chipToggle) {
+            return;
+          }
+          document.querySelectorAll('.chip').forEach((item) => item.classList.remove('active'));
+          chip.classList.add('active');
+          applyFilters();
+        });
+      });
+
+      document.querySelector('[data-chip-toggle]')?.addEventListener('click', () => {
+        const hiddenChips = document.querySelectorAll('.chip-hidden');
+        const toggle = document.querySelector('[data-chip-toggle]');
+        const shouldShow = toggle?.textContent === 'See more';
+
+        hiddenChips.forEach((chip) => {
+          chip.hidden = !shouldShow;
+        });
+
+        if (toggle) {
+          toggle.textContent = shouldShow ? 'See less' : 'See more';
+        }
+      });
+
+      document.querySelector('[data-theme-toggle]')?.addEventListener('click', () => {
+        const nextTheme = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-bs-theme', nextTheme);
+        document.body.classList.toggle('theme-dark', nextTheme === 'dark');
+        document.body.classList.toggle('theme-light', nextTheme === 'light');
+        localStorage.setItem('goodweb-theme', nextTheme);
+      });
+
+      document.addEventListener('DOMContentLoaded', () => {
+        applyFilters();
+      });
+    </script>
+  </body>
+</html>

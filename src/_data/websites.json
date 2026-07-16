@@ -1,6 +1,6 @@
 [
   {
-    "category_name": "Video Editors",
+    "category_name": "Video & Media",
     "category_slug": "video",
     "sites": [
       {
@@ -14,6 +14,20 @@
         "name": "HandBrake",
         "url": "https://handbrake.fr",
         "desc": "The open-source standard for converting video files from nearly any format.",
+        "icon": "film",
+        "requires_signup": false
+      },
+      {
+        "name": "Shotcut",
+        "url": "https://shotcut.org",
+        "desc": "A free, open-source, cross-platform video editor with sleek timeline editing capabilities.",
+        "icon": "video",
+        "requires_signup": false
+      },
+      {
+        "name": "LosslessCut",
+        "url": "https://github.com",
+        "desc": "The ultimate tool for extremely fast, lossless trimming and cutting of video and audio files.",
         "icon": "film",
         "requires_signup": false
       }
@@ -36,6 +50,20 @@
         "desc": "A free and open catalog of scholarly works that makes research discovery easier.",
         "icon": "sparkles",
         "requires_signup": false
+      },
+      {
+        "name": "ZoteroBib",
+        "url": "https://zbib.org",
+        "desc": "A fast web companion that helps you build a bibliography instantly without installing any software.",
+        "icon": "sparkles",
+        "requires_signup": false
+      },
+      {
+        "name": "LibreOffice",
+        "url": "https://libreoffice.org",
+        "desc": "A powerful, clean open-source office productivity suite that replaces Microsoft Office.",
+        "icon": "sparkles",
+        "requires_signup": false
       }
     ]
   },
@@ -56,6 +84,60 @@
         "desc": "A friendly board-based tool for organizing projects without friction.",
         "icon": "sparkles",
         "requires_signup": true
+      },
+      {
+        "name": "Photopea",
+        "url": "https://photopea.com",
+        "desc": "An incredibly powerful web-based graphics editor that looks and feels just like Photoshop.",
+        "icon": "palette",
+        "requires_signup": false
+      },
+      {
+        "name": "Unsplash",
+        "url": "https://unsplash.com",
+        "desc": "The internet's source of freely usable, stunning, and high-resolution stock photography.",
+        "icon": "palette",
+        "requires_signup": false
+      }
+    ]
+  },
+  {
+    "category_name": "Streaming & Entertainment",
+    "category_slug": "streaming",
+    "sites": [
+      {
+        "name": "Tubi TV",
+        "url": "https://tubitv.com",
+        "desc": "A safe, legal streaming catalog holding thousands of movies and live television channels completely free.",
+        "icon": "video",
+        "requires_signup": false
+      },
+      {
+        "name": "Pluto TV",
+        "url": "https://pluto.tv",
+        "desc": "Drop in to hundreds of live channels and on-demand movies mimicking the classic cable box setup.",
+        "icon": "video",
+        "requires_signup": false
+      }
+    ]
+  },
+  {
+    "category_name": "Music & Audio",
+    "category_slug": "audio",
+    "sites": [
+      {
+        "name": "Audacity",
+        "url": "https://audacityteam.org",
+        "desc": "The legendary open-source multitrack audio recorder and editor used by creators worldwide.",
+        "icon": "film",
+        "requires_signup": false
+      },
+      {
+        "name": "Radio Garden",
+        "url": "https://radio.garden",
+        "desc": "An interactive globe map that allows you to rotate the world and listen to live radio stations anywhere.",
+        "icon": "film",
+        "requires_signup": false
       }
     ]
   }
