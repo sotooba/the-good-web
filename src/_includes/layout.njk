@@ -35,6 +35,13 @@
         });
       }
 
+      function updateClearButtons() {
+        const hasValue = (document.querySelector('[data-search-input]')?.value || '').trim().length > 0;
+        document.querySelectorAll('[data-clear-search]').forEach((button) => {
+          button.hidden = !hasValue;
+        });
+      }
+
       function applyFilters() {
         const query = (document.querySelector('[data-search-input]')?.value || '').trim().toLowerCase();
         const activeCategory = document.querySelector('.chip.active')?.dataset.category || 'all';
@@ -61,7 +68,17 @@
       document.querySelectorAll('[data-search-input]').forEach((input) => {
         input.addEventListener('input', (event) => {
           syncSearchInputs(event.target.value);
+          updateClearButtons();
           applyFilters();
+        });
+      });
+
+      document.querySelectorAll('[data-clear-search]').forEach((button) => {
+        button.addEventListener('click', () => {
+          syncSearchInputs('');
+          updateClearButtons();
+          applyFilters();
+          document.querySelector('[data-search-input]')?.focus();
         });
       });
 
@@ -99,6 +116,7 @@
       });
 
       document.addEventListener('DOMContentLoaded', () => {
+        updateClearButtons();
         applyFilters();
       });
     </script>
