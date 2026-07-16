@@ -1,0 +1,14 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Eleventy Build Output
+_site/
+
+# Local configuration & environment files
+.env
+.env.local
+.DS_Store
+Thumbs.db

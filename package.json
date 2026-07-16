@@ -1,0 +1,26 @@
+{
+  "name": "the-good-web",
+  "version": "1.0.0",
+  "description": "A hand-compiled, minimalist directory of free, incredibly useful web resources that require no money, credit cards, or hidden paywalls.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotooba/the-good-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sotooba/the-good-web/issues"
+  },
+  "homepage": "https://github.com/sotooba/the-good-web#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "category_name": "Video Editors",
+    "category_slug": "video",
+    "sites": [
+      {
+        "name": "CapCut Web",
+        "url": "https://capcut.com",
+        "desc": "A deeply versatile browser-based multi-track video timeline tool.",
+        "icon": "video",
+        "requires_signup": true
+      },
+      {
+        "name": "HandBrake",
+        "url": "https://handbrake.fr",
+        "desc": "The open-source standard for converting video files from nearly any format.",
+        "icon": "film",
+        "requires_signup": false
+      }
+    ]
+  },
+  {
+    "category_name": "Students & Research",
+    "category_slug": "students",
+    "sites": [
+      {
+        "name": "Zotero",
+        "url": "https://zotero.org",
+        "desc": "An open-source desktop application to help you collect and organize research sources.",
+        "icon": "sparkles",
+        "requires_signup": false
+      },
+      {
+        "name": "OpenAlex",
+        "url": "https://openalex.org",
+        "desc": "A free and open catalog of scholarly works that makes research discovery easier.",
+        "icon": "sparkles",
+        "requires_signup": false
+      }
+    ]
+  },
+  {
+    "category_name": "Design & Productivity",
+    "category_slug": "design",
+    "sites": [
+      {
+        "name": "Excalidraw",
+        "url": "https://excalidraw.com",
+        "desc": "A polished collaborative whiteboard for sketches, diagrams, and quick planning.",
+        "icon": "palette",
+        "requires_signup": false
+      },
+      {
+        "name": "Trello",
+        "url": "https://trello.com",
+        "desc": "A friendly board-based tool for organizing projects without friction.",
+        "icon": "sparkles",
+        "requires_signup": true
+      }
+    ]
+  }
+]
