@@ -65,15 +65,80 @@
 			},
 			{
 				"desc": "A curated list of free and open source alternatives to Spotify, YouTube Music, and other popular streaming platforms.",
-				"icon": "sparkles",
+				"icon": "audio",
 				"name": "Music Streaming Apps",
 				"requires_signup": false,
 				"tags": [
 					"free",
 					"list of lists",
-					"free media"
+					"free media",
+					"free music",
+					"spotify alternative",
+					"youtube music alternatives",
+					"apple music alternatives"
 				],
 				"url": "https://github.com/chayotic/Open-Source-Music-Streaming-Apps"
+			},
+			{
+				"desc": "The BEST directory of working movie and TV streaming sites.",
+				"icon": "film",
+				"name": "VidPop List",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"free media",
+					"free movies"
+				],
+				"url": "https://list.vidpop.xyz/?page=home"
+			},
+			{
+				"desc": "A curated list of must-see open source repositories for developers, students, and tech enthusiasts.",
+				"icon": "sparkles",
+				"name": "Top Github Repos",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"github repo"
+				],
+				"url": "https://md8-habibullah.github.io/top-github-repos-list/"
+			},
+			{
+				"desc": "A comprehensive list of YouTube channels for any purpose and other resources.",
+				"icon": "sparkles",
+				"name": "Youtube Channels",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"github repo"
+				],
+				"url": "https://github.com/PrejudiceNeutrino/YouTube_Channels"
+			},
+			{
+				"desc": "This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch.",
+				"icon": "sparkles",
+				"name": "Build Your Own X",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"github repo"
+				],
+				"url": "https://github.com/PrejudiceNeutrino/YouTube_Channels"
+			},
+			{
+				"desc": "An extensive list of public APIs from many domains that you can use for your own products.",
+				"icon": "sparkles",
+				"name": "API Layer",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"github repo"
+				],
+				"url": "https://github.com/public-apis/public-apis"
 			}
 		]
 	},
@@ -179,49 +244,6 @@
 					"youtube"
 				],
 				"url": "https://incompetech.com"
-			}
-		]
-	},
-	{
-		"category_name": "Audio Utils",
-		"category_slug": "audio",
-		"sites": [
-			{
-				"desc": "The legendary open-source multitrack audio recorder and editor used by creators worldwide.",
-				"icon": "film",
-				"name": "Audacity",
-				"requires_signup": false,
-				"tags": [
-					"audio",
-					"editing",
-					"music",
-					"recording"
-				],
-				"url": "https://audacityteam.org"
-			},
-			{
-				"desc": "An interactive globe map that allows you to rotate the world and listen to live radio stations anywhere.",
-				"icon": "film",
-				"name": "Radio Garden",
-				"requires_signup": false,
-				"tags": [
-					"audio",
-					"radio"
-				],
-				"url": "https://radio.garden"
-			},
-			{
-				"desc": "An algorithmically-generated scatter-plot matrix mapping thousands of unique music genres.",
-				"icon": "film",
-				"name": "Every Noise",
-				"requires_signup": false,
-				"tags": [
-					"audio",
-					"music",
-					"discovery",
-					"genres"
-				],
-				"url": "https://everynoise.com"
 			}
 		]
 	},
@@ -380,98 +402,6 @@
 				],
 				"requires_signup": false,
 				"desc": "An interactive museum of internet culture featuring fully functional emulators, preserved games (GTA Vice City, Minecraft, Angry Birds)."
-			}
-		]
-	},
-	{
-		"category_name": "Image Editors",
-		"category_slug": "image-editors",
-		"sites": [
-			{
-				"desc": "An incredibly powerful web-based graphics editor that looks and feels just like Photoshop.",
-				"icon": "palette",
-				"name": "Photopea",
-				"requires_signup": false,
-				"tags": [
-					"design",
-					"editing",
-					"graphics",
-					"photoshop"
-				],
-				"url": "https://photopea.com"
-			},
-			{
-				"desc": "A powerful, drag-and-drop graphic design web application serving as a signup-free Canva alternative.",
-				"icon": "palette",
-				"name": "Polotno Studio",
-				"requires_signup": false,
-				"tags": [
-					"design",
-					"templates",
-					"graphics",
-					"canva",
-					"editing"
-				],
-				"url": "https://polotno.dev"
-			},
-			{
-				"desc": "A polished collaborative whiteboard for hand-drawn sketches, diagrams, and wireframes.",
-				"icon": "palette",
-				"name": "Excalidraw",
-				"requires_signup": false,
-				"tags": [
-					"design",
-					"collaboration",
-					"planning",
-					"whiteboard"
-				],
-				"url": "https://excalidraw.com"
-			}
-		]
-	},
-	{
-		"category_name": "Image Utils",
-		"category_slug": "image-utilities",
-		"sites": [
-			{
-				"desc": "Remove image background with one click.",
-				"icon": "palette",
-				"name": "Remove bg",
-				"requires_signup": false,
-				"tags": [
-					"utility",
-					"background remover",
-					"editing",
-					"privacy"
-				],
-				"url": "https://www.remove.bg/"
-			},
-			{
-				"desc": "Convert low-resolution bitmap graphics (JPG, PNG, GIF) into clean scalable vector formats online.",
-				"icon": "palette",
-				"name": "VectorMagic",
-				"requires_signup": false,
-				"tags": [
-					"design",
-					"vector",
-					"svg",
-					"images"
-				],
-				"url": "https://vectormagic.com"
-			},
-			{
-				"desc": "The ultimate web toolbox for assembling, cropping, optimizing, and converting animated GIFs and WebP files.",
-				"icon": "palette",
-				"name": "EZGIF",
-				"requires_signup": false,
-				"tags": [
-					"utility",
-					"gif",
-					"conversion",
-					"optimization",
-					"editing"
-				],
-				"url": "https://ezgif.com"
 			}
 		]
 	},
@@ -782,7 +712,7 @@
 		]
 	},
 	{
-		"category_name": "Video Editing",
+		"category_name": "Video/Image Editing",
 		"category_slug": "video",
 		"sites": [
 			{
@@ -820,6 +750,47 @@
 					"free"
 				],
 				"url": "https://www.openshot.org/"
+			},
+			{
+				"desc": "An incredibly powerful web-based graphics editor that looks and feels just like Photoshop.",
+				"icon": "palette",
+				"name": "Photopea",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"editing",
+					"graphics",
+					"photoshop"
+				],
+				"url": "https://photopea.com"
+			},
+			{
+				"desc": "A powerful, drag-and-drop graphic design web application serving as a signup-free Canva alternative.",
+				"icon": "palette",
+				"name": "Polotno Studio",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"templates",
+					"graphics",
+					"canva",
+					"editing"
+				],
+				"url": "https://polotno.dev"
+			},
+			{
+				"desc": "The Free & Open Source Image Editor software.",
+				"icon": "image editor",
+				"name": "Gimp",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"templates",
+					"graphics",
+					"canva",
+					"editing"
+				],
+				"url": "https://www.gimp.org/"
 			}
 		]
 	}
