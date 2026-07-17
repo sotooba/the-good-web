@@ -1,763 +1,826 @@
 [
   {
-    "category_name": "List of Lists",
-    "category_slug": "lists",
-    "sites": [
-      {
-        "desc": "The largest collection of free stuff on the internet.",
-        "icon": "sparkles",
-        "name": "FMHY",
-        "requires_signup": false,
-        "tags": [
-          "free",
-          "list of lists",
-          "free media"
-        ],
-        "url": "https://fmhy.net/"
-      },
-      {
-        "desc": "Hand-curated list of awesome and useful websites.",
-        "icon": "sparkles",
-        "name": "Awesome Websites",
-        "requires_signup": false,
-        "tags": [
-          "free",
-          "list of lists",
-          "free media"
-        ],
-        "url": "https://github.com"
-      },
-      {
-        "desc": "List of Open Source Tools that requires No Signups and works right in your browser",
-        "icon": "sparkles",
-        "name": "No Signups",
-        "requires_signup": false,
-        "tags": [
-          "free",
-          "list of lists",
-          "free media"
-        ],
-        "url": "https://nosignups.net"
-      },
-      {
-        "desc": "List of free resources including Movies and TV shows, Anime, Mange, Games, E-books and many more.",
-        "icon": "sparkles",
-        "name": "YaarList",
-        "requires_signup": false,
-        "tags": [
-          "free",
-          "list of lists",
-          "free media"
-        ],
-        "url": "https://yarrlist.net/"
-      },
-      {
-        "desc": "List of free resources. Similar to Yaarlist. Includes more and upto date links to the respective sites",
-        "icon": "sparkles",
-        "name": "AhoyList",
-        "requires_signup": false,
-        "tags": [
-          "free",
-          "list of lists",
-          "free media"
-        ],
-        "url": "https://ahoylist.net/"
-      },
-      {
-        "desc": "A curated list of free and open source alternatives to Spotify, YouTube Music, and other popular streaming platforms.",
-        "icon": "sparkles",
-        "name": "Music Streaming Apps",
-        "requires_signup": false,
-        "tags": [
-          "free",
-          "list of lists",
-          "free media"
-        ],
-        "url": "https://github.com/chayotic/Open-Source-Music-Streaming-Apps"
-      }
-    ]
-  },
-  {
-    "category_name": "All-in-One Tools",
-    "category_slug": "multi-tools",
-    "sites": [
-      {
-        "desc": "An expansive web toolbox packed with AI writers, PDF editors, image background removal nodes, and multi-format file converters.",
-        "icon": "sparkles",
-        "name": "TinyWow",
-        "requires_signup": false,
-        "tags": [
-          "tools",
-          "pdf",
-          "editing",
-          "conversion",
-          "ai",
-          "images",
-          "all-in-one"
-        ],
-        "url": "https://tinywow.com/"
-      },
-      {
-        "desc": "A complete browser app suite containing independent audio extractors, video cutters, format transcoders, and screen recorders.",
-        "icon": "sparkles",
-        "name": "123apps",
-        "requires_signup": false,
-        "tags": [
-          "tools",
-          "video",
-          "audio",
-          "pdf",
-          "converter",
-          "editing",
-          "all-in-one"
-        ],
-        "url": "https://123apps.com"
-      },
-      {
-        "desc": "A minimalist toolkit featuring direct social utilities like YouTube thumbnail grabbers, image splitters, and metadata extractors.",
-        "icon": "sparkles",
-        "name": "All in One Tools",
-        "requires_signup": false,
-        "tags": [
-          "tools",
-          "social",
-          "images",
-          "youtube",
-          "downloader",
-          "all-in-one"
-        ],
-        "url": "https://allinone.tools/"
-      }
-    ]
-  },
-  {
-    "category_name": "Audio & SFX",
-    "category_slug": "copyright-free-audio",
-    "sites": [
-      {
-        "desc": "A massive, community-driven database of public domain and Creative Commons tracks legal for background video tracking.",
-        "icon": "film",
-        "name": "Free Music Archive",
-        "requires_signup": true,
-        "tags": [
-          "audio",
-          "music",
-          "download",
-          "royalty-free",
-          "creative-commons",
-          "background"
-        ],
-        "url": "https://freemusicarchive.org"
-      },
-      {
-        "desc": "A premium library providing production-ready sound effects and background musical clips entirely signup-free.",
-        "icon": "film",
-        "name": "Mixkit Audio",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "music",
-          "sfx",
-          "download",
-          "royalty-free",
-          "effects",
-          "video"
-        ],
-        "url": "https://mixkit.co/free-sound-effects/"
-      },
-      {
-        "desc": "The definitive archive of genre-sorted cinematic tracks mapped by composer Kevin MacLeod for streaming and gameplay background tracks.",
-        "icon": "film",
-        "name": "Incompetech",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "music",
-          "download",
-          "royalty-free",
-          "cinematic",
-          "youtube"
-        ],
-        "url": "https://incompetech.com"
-      }
-    ]
-  },
-  {
-    "category_name": "Image Editors",
-    "category_slug": "image-editors",
-    "sites": [
-      {
-        "desc": "An incredibly powerful web-based graphics editor that looks and feels just like Photoshop.",
-        "icon": "palette",
-        "name": "Photopea",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "editing",
-          "graphics",
-          "photoshop"
-        ],
-        "url": "https://photopea.com"
-      },
-      {
-        "desc": "A powerful, drag-and-drop graphic design web application serving as a signup-free Canva alternative.",
-        "icon": "palette",
-        "name": "Polotno Studio",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "templates",
-          "graphics",
-          "canva",
-          "editing"
-        ],
-        "url": "https://polotno.dev"
-      },
-      {
-        "desc": "A polished collaborative whiteboard for hand-drawn sketches, diagrams, and wireframes.",
-        "icon": "palette",
-        "name": "Excalidraw",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "collaboration",
-          "planning",
-          "whiteboard"
-        ],
-        "url": "https://excalidraw.com"
-      }
-    ]
-  },
-  {
-    "category_name": "Image Utils",
-    "category_slug": "image-utilities",
-    "sites": [
-      {
-        "desc": "Remove image background with one click.",
-        "icon": "palette",
-        "name": "Remove bg",
-        "requires_signup": false,
-        "tags": [
-          "utility",
-          "background remover",
-          "editing",
-          "privacy"
-        ],
-        "url": "https://www.remove.bg/"
-      },
-      {
-        "desc": "Convert low-resolution bitmap graphics (JPG, PNG, GIF) into clean scalable vector formats online.",
-        "icon": "palette",
-        "name": "VectorMagic",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "vector",
-          "svg",
-          "images"
-        ],
-        "url": "https://vectormagic.com"
-      },
-      {
-        "desc": "The ultimate web toolbox for assembling, cropping, optimizing, and converting animated GIFs and WebP files.",
-        "icon": "palette",
-        "name": "EZGIF",
-        "requires_signup": false,
-        "tags": [
-          "utility",
-          "gif",
-          "conversion",
-          "optimization",
-          "editing"
-        ],
-        "url": "https://ezgif.com"
-      }
-    ]
-  },
-  {
-    "category_name": "Movies & Streaming",
-    "category_slug": "streaming",
-    "sites": [
-      {
-        "desc": "A safe, legal streaming catalog holding thousands of movies and live television channels completely free.",
-        "icon": "video",
-        "name": "Tubi TV",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "entertainment",
-          "movies"
-        ],
-        "url": "https://tubitv.com"
-      },
-      {
-        "desc": "Drop in to hundreds of live channels and on-demand movies mimicking the classic cable box setup.",
-        "icon": "video",
-        "name": "Pluto TV",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://pluto.tv"
-      },
-      {
-        "desc": "Unlimited Movies and TV Shows streaming website.",
-        "icon": "video",
-        "name": "RemoFlix",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://ramoflix.net/"
-      },
-      {
-        "desc": "Unlimited Movies and TV Shows with a vast and diverse database.",
-        "icon": "video",
-        "name": "WMovies",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://wmovies.org/home/"
-      },
-      {
-        "desc": "Movies and TV Shows to stream at no cost.",
-        "icon": "video",
-        "name": "Cineby",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://www.cineby.at/"
-      },
-      {
-        "desc": "Unlimited Movies and TV Shows.",
-        "icon": "video",
-        "name": "Moviebox",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://themoviebox.org/"
-      },
-      {
-        "desc": "Unlimited Movies and TV Shows.",
-        "icon": "video",
-        "name": "CinebyTv",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://cinebytv.com/"
-      },
-      {
-        "desc": "Watch your favourite Movies and TV Shows.",
-        "icon": "video",
-        "name": "123Movies",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://ww8.123moviesfree.net/home/"
-      },
-      {
-        "desc": "Watch your favourite Movies and TV Shows.",
-        "icon": "video",
-        "name": "HdToday",
-        "requires_signup": false,
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "url": "https://hdtoday.tr/"
-      }
-    ]
-  },
-  {
-    "category_name": "Audio Utils",
-    "category_slug": "audio",
-    "sites": [
-      {
-        "desc": "The legendary open-source multitrack audio recorder and editor used by creators worldwide.",
-        "icon": "film",
-        "name": "Audacity",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "editing",
-          "music",
-          "recording"
-        ],
-        "url": "https://audacityteam.org"
-      },
-      {
-        "desc": "An interactive globe map that allows you to rotate the world and listen to live radio stations anywhere.",
-        "icon": "film",
-        "name": "Radio Garden",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "radio"
-        ],
-        "url": "https://radio.garden"
-      },
-      {
-        "desc": "An algorithmically-generated scatter-plot matrix mapping thousands of unique music genres.",
-        "icon": "film",
-        "name": "Every Noise",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "music",
-          "discovery",
-          "genres"
-        ],
-        "url": "https://everynoise.com"
-      }
-    ]
-  },
-  {
-    "category_name": "Music Download",
-    "category_slug": "music-download",
-    "sites": [
-      {
-        "desc": "An online tool to download Spotify tracks, Playlists & albums. No need to have a Spotify account.",
-        "icon": "audio",
-        "name": "Spotify Downloader",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "music",
-          "spotify",
-          "ad-free"
-        ],
-        "url": "https://spotidown.co/en6"
-      },
-      {
-        "desc": "Youtube Music downloader that let's you download the songs simply by copy and pasting the link.",
-        "icon": "audio",
-        "name": "Vids Save",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "music",
-          "youtube",
-          "youtube music",
-          "ad-free"
-        ],
-        "url": "https://vidssave.com/youtube-music-download-2az"
-      },
-      {
-        "desc": "Download anything from the web whether it’s a video, an audio, or a playlist, in preferred quality, format, and options.",
-        "icon": "audio",
-        "name": "Ytdlnis",
-        "requires_signup": false,
-        "tags": [
-          "audio",
-          "music",
-          "youtube",
-          "youtube music",
-          "ad-free"
-        ],
-        "url": "https://ytdlnis.com/"
-      }
-    ]
-  },
-  
-  {
-    "category_name": "Stock Assets",
-    "category_slug": "media-assets",
-    "sites": [
-      {
-        "desc": "The internet's source of freely usable, stunning, and high-resolution stock photography.",
-        "icon": "palette",
-        "name": "Unsplash",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "images",
-          "media",
-          "photos",
-          "stock"
-        ],
-        "url": "https://unsplash.com"
-      },
-      {
-        "desc": "High-quality, completely free stock photos and footage loops shared by talented creators globally.",
-        "icon": "palette",
-        "name": "Pexels",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "images",
-          "videos",
-          "assets",
-          "stock"
-        ],
-        "url": "https://pexels.com"
-      },
-      {
-        "desc": "Royalty Free images, stock videos, audio, music, illustrations.",
-        "icon": "palette",
-        "name": "Pixabay",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "images",
-          "videos",
-          "assets",
-          "stock"
-        ],
-        "url": "https://pixabay.com/"
-      },
-      {
-        "desc": "A vast collection of over 5000+ open-source pixel-perfect responsive vector SVG icons needing no attribution.",
-        "icon": "palette",
-        "name": "Tabler Icons",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "icons",
-          "svg",
-          "vector",
-          "assets"
-        ],
-        "url": "https://tabler.io"
-      },
-      {
-        "desc": "Large icon packs of over 10k icons, so you can find visually consistent icons for all your designs",
-        "icon": "palette",
-        "name": "Icons",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "icons",
-          "svg",
-          "vector",
-          "assets"
-        ],
-        "url": "https://icons8.com/icons"
-      },
-      {
-        "desc": "A vast library of free to download and use fonts with commercial license.",
-        "icon": "palette",
-        "name": "1001 Free Fonts",
-        "requires_signup": false,
-        "tags": [
-          "design",
-          "icons",
-          "svg",
-          "vector",
-          "assets"
-        ],
-        "url": "https://www.1001freefonts.com/"
-      }
-    ]
-  },
-  {
-    "category_name": "Office & Productivity ",
-    "category_slug": "productivity ",
-    "sites": [
-      {
-        "desc": "A powerful, clean open-source office productivity suite that replaces Microsoft Office.",
-        "icon": "sparkles",
-        "name": "LibreOffice",
-        "requires_signup": false,
-        "tags": [
-          "productivity",
-          "office",
-          "MS Office",
-          "study"
-        ],
-        "url": "https://www.libreoffice.org/"
-      },
-      {
-        "desc": "The free Office suite built for everyday work. Bringing AI Copilot, Cloud Docs, and seamless multi-device sync.",
-        "icon": "sparkles",
-        "name": "WPS Office",
-        "requires_signup": false,
-        "tags": [
-          "productivity",
-          "office",
-          "MS Office",
-          "study"
-        ],
-        "url": "https://www.wps.com/"
-      },
-      {
-        "desc": "An open-source Windows and Office activator with step by step instructions to install and activate Office suit and Windows.",
-        "icon": "sparkles",
-        "name": "MassGrave",
-        "requires_signup": false,
-        "tags": [
-          "productivity",
-          "office",
-          "study",
-          "MS Office",
-          "windows"
-        ],
-        "url": "https://massgrave.dev/genuine-installation-media"
-      }
-    ]
-  },
-  {
-    "category_name": "Video Editing",
-    "category_slug": "video",
-    "sites": [
-      {
-        "desc": "A open source CapCut alternative right in your browser.",
-        "icon": "video",
-        "name": "Open Cut",
-        "requires_signup": false,
-        "tags": [
-          "video",
-          "editing",
-          "media"
-        ],
-        "url": "https://opencut.app"
-      },
-      {
-        "desc": "A free, open-source, cross-platform video editor with sleek timeline editing capabilities.",
-        "icon": "video",
-        "name": "Shotcut",
-        "requires_signup": false,
-        "tags": [
-          "video",
-          "editing",
-          "free"
-        ],
-        "url": "https://shotcut.org"
-      },
-      {
-        "desc": "A free, open-source video editor that’s easy to use, quick to learn, and surprisingly powerful.",
-        "icon": "video",
-        "name": "OpenShot",
-        "requires_signup": false,
-        "tags": [
-          "video",
-          "editing",
-          "free"
-        ],
-        "url": "https://www.openshot.org/"
-      }      
-    ]
-  },
-  {
-    "category_name": "Book Resources",
-    "category_slug": "books",
-    "sites": [
-    {
-      "name": "Project Gutenberg",
-      "url": "https://gutenberg.org",
-      "tags": ["Public Domain", "Classic Literature", "Historical Texts"],
-      "requires_signup": false,
-      "desc": "A massive archive of over 70,000 older literary works digitized from the public domain."
-    },
-    {
-      "name": "Open Library",
-      "url": "https://openlibrary.org",
-      "tags": ["General Fiction", "Biographies", "Textbooks", "Lending Library"],
-      "requires_signup": false,
-      "desc": "An open, editable library catalog that lets you borrow millions of scanned digital books online."
-    },
-    {
-      "name": "Standard Ebooks",
-      "url": "https://standardebooks.org",
-      "tags": ["Typography-formatted Classics", "Free Ebooks", "Public Domain"],
-      "requires_signup": false,
-      "desc": "A volunteer-driven project that re-formats public domain books into beautiful, modern, typography-accurate ebooks."
-    }
-  ]
-},
-
-{
-  "category_name": "Browser Games",
-  "category_slug": "browser-games",
-  "sites": [
-    {
-      "name": "itch.io",
-      "url": "https://itch.io",
-      "tags": ["Indie Games", "Game Jams", "Browser-Based", "Experimental", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "An open marketplace hosting thousands of free, creative, creator-submitted browser games."
-    },
-    {
-      "name": "Poki",
-      "url": "https://poki.com",
-      "tags": ["Cross-Platform", "Casual Games", "Mobile Ports", "Instant Play", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "A massively popular, optimized playground featuring instant-play web versions of famous mobile and indie titles."
-    },
-    {
-      "name": "CrazyGames",
-      "url": "https://www.crazygames.com",
-      "tags": ["Arcade", "Multiplayer", "Casual Games", "Instant Play", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "A large web platform serving high-quality, fast-loading HTML5 games across all genres."
-    },
-    {
-      "name": "Y8 Games",
-      "url": "https://www.y8.com",
-      "tags": ["Multiplayer", "Retro Arcade", "Originals", "Achievements", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "A long-running, active archive hosting massive libraries of multiplayer social games and classic arcade dynamics."
-    },
-    {
-      "name": "Newgrounds",
-      "url": "https://newgrounds.com",
-      "tags": ["Indie Animation", "Flash Legacy", "Art Community", "Audio Portal", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "The historic, creator-driven hub for independent web animation, music, and highly creative browser games."
-    },
-    {
-      "name": "Armor Games",
-      "url": "https://armorgames.com",
-      "tags": ["Classic Flash", "Strategy", "RPG", "Curated", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "A legendary portal hosting a curated collection of polished indie web and browser games."
-    },
-    {
-      "name": "Kongregate",
-      "url": "https://kongregate.com",
-      "tags": ["Achievements", "Community", "Idle Games", "Retro", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "An expansive web gaming platform complete with community chats, badges, and thousands of titles."
-    },
-    {
-      "name": "Quenq",
-      "url": "https://quenq.com/",
-      "tags": ["Achievements", "Community", "Idle Games", "Retro", "free games", "browser games"],
-      "requires_signup": false,
-      "desc": "An interactive museum of internet culture featuring fully functional emulators, preserved games (GTA Vice City, Minecraft, Angry Birds)."
-    }
-    
-  ]
-}
-
-
-
+		"category_name": "List of Lists",
+		"category_slug": "lists",
+		"sites": [
+			{
+				"desc": "The largest collection of free stuff on the internet.",
+				"icon": "sparkles",
+				"name": "FMHY",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"free media"
+				],
+				"url": "https://fmhy.net/"
+			},
+			{
+				"desc": "Hand-curated list of awesome and useful websites.",
+				"icon": "sparkles",
+				"name": "Awesome Websites",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"free media"
+				],
+				"url": "https://github.com"
+			},
+			{
+				"desc": "List of Open Source Tools that requires No Signups and works right in your browser",
+				"icon": "sparkles",
+				"name": "No Signups",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"free media"
+				],
+				"url": "https://nosignups.net"
+			},
+			{
+				"desc": "List of free resources including Movies and TV shows, Anime, Mange, Games, E-books and many more.",
+				"icon": "sparkles",
+				"name": "YaarList",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"free media"
+				],
+				"url": "https://yarrlist.net/"
+			},
+			{
+				"desc": "List of free resources. Similar to Yaarlist. Includes more and upto date links to the respective sites",
+				"icon": "sparkles",
+				"name": "AhoyList",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"free media"
+				],
+				"url": "https://ahoylist.net/"
+			},
+			{
+				"desc": "A curated list of free and open source alternatives to Spotify, YouTube Music, and other popular streaming platforms.",
+				"icon": "sparkles",
+				"name": "Music Streaming Apps",
+				"requires_signup": false,
+				"tags": [
+					"free",
+					"list of lists",
+					"free media"
+				],
+				"url": "https://github.com/chayotic/Open-Source-Music-Streaming-Apps"
+			}
+		]
+	},
+	{
+		"category_name": "All-in-One Tools",
+		"category_slug": "multi-tools",
+		"sites": [
+			{
+				"desc": "An expansive web toolbox packed with AI writers, PDF editors, image background removal nodes, and multi-format file converters.",
+				"icon": "sparkles",
+				"name": "TinyWow",
+				"requires_signup": false,
+				"tags": [
+					"tools",
+					"pdf",
+					"editing",
+					"conversion",
+					"ai",
+					"images",
+					"all-in-one"
+				],
+				"url": "https://tinywow.com/"
+			},
+			{
+				"desc": "A complete browser app suite containing independent audio extractors, video cutters, format transcoders, and screen recorders.",
+				"icon": "sparkles",
+				"name": "123apps",
+				"requires_signup": false,
+				"tags": [
+					"tools",
+					"video",
+					"audio",
+					"pdf",
+					"converter",
+					"editing",
+					"all-in-one"
+				],
+				"url": "https://123apps.com"
+			},
+			{
+				"desc": "A minimalist toolkit featuring direct social utilities like YouTube thumbnail grabbers, image splitters, and metadata extractors.",
+				"icon": "sparkles",
+				"name": "All in One Tools",
+				"requires_signup": false,
+				"tags": [
+					"tools",
+					"social",
+					"images",
+					"youtube",
+					"downloader",
+					"all-in-one"
+				],
+				"url": "https://allinone.tools/"
+			}
+		]
+	},
+	{
+		"category_name": "Audio & SFX",
+		"category_slug": "copyright-free-audio",
+		"sites": [
+			{
+				"desc": "A massive, community-driven database of public domain and Creative Commons tracks legal for background video tracking.",
+				"icon": "film",
+				"name": "Free Music Archive",
+				"requires_signup": true,
+				"tags": [
+					"audio",
+					"music",
+					"download",
+					"royalty-free",
+					"creative-commons",
+					"background"
+				],
+				"url": "https://freemusicarchive.org"
+			},
+			{
+				"desc": "A premium library providing production-ready sound effects and background musical clips entirely signup-free.",
+				"icon": "film",
+				"name": "Mixkit Audio",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"music",
+					"sfx",
+					"download",
+					"royalty-free",
+					"effects",
+					"video"
+				],
+				"url": "https://mixkit.co/free-sound-effects/"
+			},
+			{
+				"desc": "The definitive archive of genre-sorted cinematic tracks mapped by composer Kevin MacLeod for streaming and gameplay background tracks.",
+				"icon": "film",
+				"name": "Incompetech",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"music",
+					"download",
+					"royalty-free",
+					"cinematic",
+					"youtube"
+				],
+				"url": "https://incompetech.com"
+			}
+		]
+	},
+	{
+		"category_name": "Audio Utils",
+		"category_slug": "audio",
+		"sites": [
+			{
+				"desc": "The legendary open-source multitrack audio recorder and editor used by creators worldwide.",
+				"icon": "film",
+				"name": "Audacity",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"editing",
+					"music",
+					"recording"
+				],
+				"url": "https://audacityteam.org"
+			},
+			{
+				"desc": "An interactive globe map that allows you to rotate the world and listen to live radio stations anywhere.",
+				"icon": "film",
+				"name": "Radio Garden",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"radio"
+				],
+				"url": "https://radio.garden"
+			},
+			{
+				"desc": "An algorithmically-generated scatter-plot matrix mapping thousands of unique music genres.",
+				"icon": "film",
+				"name": "Every Noise",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"music",
+					"discovery",
+					"genres"
+				],
+				"url": "https://everynoise.com"
+			}
+		]
+	},
+	{
+		"category_name": "Book Resources",
+		"category_slug": "books",
+		"sites": [
+			{
+				"name": "Project Gutenberg",
+				"url": "https://gutenberg.org",
+				"tags": [
+					"Public Domain",
+					"Classic Literature",
+					"Historical Texts"
+				],
+				"requires_signup": false,
+				"desc": "A massive archive of over 70,000 older literary works digitized from the public domain."
+			},
+			{
+				"name": "Open Library",
+				"url": "https://openlibrary.org",
+				"tags": [
+					"General Fiction",
+					"Biographies",
+					"Textbooks",
+					"Lending Library"
+				],
+				"requires_signup": false,
+				"desc": "An open, editable library catalog that lets you borrow millions of scanned digital books online."
+			},
+			{
+				"name": "Standard Ebooks",
+				"url": "https://standardebooks.org",
+				"tags": [
+					"Typography-formatted Classics",
+					"Free Ebooks",
+					"Public Domain"
+				],
+				"requires_signup": false,
+				"desc": "A volunteer-driven project that re-formats public domain books into beautiful, modern, typography-accurate ebooks."
+			}
+		]
+	},
+	{
+		"category_name": "Browser Games",
+		"category_slug": "browser-games",
+		"sites": [
+			{
+				"name": "itch.io",
+				"url": "https://itch.io",
+				"tags": [
+					"Indie Games",
+					"Game Jams",
+					"Browser-Based",
+					"Experimental",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "An open marketplace hosting thousands of free, creative, creator-submitted browser games."
+			},
+			{
+				"name": "Poki",
+				"url": "https://poki.com",
+				"tags": [
+					"Cross-Platform",
+					"Casual Games",
+					"Mobile Ports",
+					"Instant Play",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "A massively popular, optimized playground featuring instant-play web versions of famous mobile and indie titles."
+			},
+			{
+				"name": "CrazyGames",
+				"url": "https://www.crazygames.com",
+				"tags": [
+					"Arcade",
+					"Multiplayer",
+					"Casual Games",
+					"Instant Play",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "A large web platform serving high-quality, fast-loading HTML5 games across all genres."
+			},
+			{
+				"name": "Y8 Games",
+				"url": "https://www.y8.com",
+				"tags": [
+					"Multiplayer",
+					"Retro Arcade",
+					"Originals",
+					"Achievements",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "A long-running, active archive hosting massive libraries of multiplayer social games and classic arcade dynamics."
+			},
+			{
+				"name": "Newgrounds",
+				"url": "https://newgrounds.com",
+				"tags": [
+					"Indie Animation",
+					"Flash Legacy",
+					"Art Community",
+					"Audio Portal",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "The historic, creator-driven hub for independent web animation, music, and highly creative browser games."
+			},
+			{
+				"name": "Armor Games",
+				"url": "https://armorgames.com",
+				"tags": [
+					"Classic Flash",
+					"Strategy",
+					"RPG",
+					"Curated",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "A legendary portal hosting a curated collection of polished indie web and browser games."
+			},
+			{
+				"name": "Kongregate",
+				"url": "https://kongregate.com",
+				"tags": [
+					"Achievements",
+					"Community",
+					"Idle Games",
+					"Retro",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "An expansive web gaming platform complete with community chats, badges, and thousands of titles."
+			},
+			{
+				"name": "Quenq",
+				"url": "https://quenq.com/",
+				"tags": [
+					"Achievements",
+					"Community",
+					"Idle Games",
+					"Retro",
+					"free games",
+					"browser games"
+				],
+				"requires_signup": false,
+				"desc": "An interactive museum of internet culture featuring fully functional emulators, preserved games (GTA Vice City, Minecraft, Angry Birds)."
+			}
+		]
+	},
+	{
+		"category_name": "Image Editors",
+		"category_slug": "image-editors",
+		"sites": [
+			{
+				"desc": "An incredibly powerful web-based graphics editor that looks and feels just like Photoshop.",
+				"icon": "palette",
+				"name": "Photopea",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"editing",
+					"graphics",
+					"photoshop"
+				],
+				"url": "https://photopea.com"
+			},
+			{
+				"desc": "A powerful, drag-and-drop graphic design web application serving as a signup-free Canva alternative.",
+				"icon": "palette",
+				"name": "Polotno Studio",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"templates",
+					"graphics",
+					"canva",
+					"editing"
+				],
+				"url": "https://polotno.dev"
+			},
+			{
+				"desc": "A polished collaborative whiteboard for hand-drawn sketches, diagrams, and wireframes.",
+				"icon": "palette",
+				"name": "Excalidraw",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"collaboration",
+					"planning",
+					"whiteboard"
+				],
+				"url": "https://excalidraw.com"
+			}
+		]
+	},
+	{
+		"category_name": "Image Utils",
+		"category_slug": "image-utilities",
+		"sites": [
+			{
+				"desc": "Remove image background with one click.",
+				"icon": "palette",
+				"name": "Remove bg",
+				"requires_signup": false,
+				"tags": [
+					"utility",
+					"background remover",
+					"editing",
+					"privacy"
+				],
+				"url": "https://www.remove.bg/"
+			},
+			{
+				"desc": "Convert low-resolution bitmap graphics (JPG, PNG, GIF) into clean scalable vector formats online.",
+				"icon": "palette",
+				"name": "VectorMagic",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"vector",
+					"svg",
+					"images"
+				],
+				"url": "https://vectormagic.com"
+			},
+			{
+				"desc": "The ultimate web toolbox for assembling, cropping, optimizing, and converting animated GIFs and WebP files.",
+				"icon": "palette",
+				"name": "EZGIF",
+				"requires_signup": false,
+				"tags": [
+					"utility",
+					"gif",
+					"conversion",
+					"optimization",
+					"editing"
+				],
+				"url": "https://ezgif.com"
+			}
+		]
+	},
+	{
+		"category_name": "Movies & Streaming",
+		"category_slug": "streaming",
+		"sites": [
+			{
+				"desc": "A safe, legal streaming catalog holding thousands of movies and live television channels completely free.",
+				"icon": "video",
+				"name": "Tubi TV",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"entertainment",
+					"movies"
+				],
+				"url": "https://tubitv.com"
+			},
+			{
+				"desc": "Drop in to hundreds of live channels and on-demand movies mimicking the classic cable box setup.",
+				"icon": "video",
+				"name": "Pluto TV",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://pluto.tv"
+			},
+			{
+				"desc": "Unlimited Movies and TV Shows streaming website.",
+				"icon": "video",
+				"name": "RemoFlix",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://ramoflix.net/"
+			},
+			{
+				"desc": "Unlimited Movies and TV Shows with a vast and diverse database.",
+				"icon": "video",
+				"name": "WMovies",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://wmovies.org/home/"
+			},
+			{
+				"desc": "Movies and TV Shows to stream at no cost.",
+				"icon": "video",
+				"name": "Cineby",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://www.cineby.at/"
+			},
+			{
+				"desc": "Unlimited Movies and TV Shows.",
+				"icon": "video",
+				"name": "Moviebox",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://themoviebox.org/"
+			},
+			{
+				"desc": "Unlimited Movies and TV Shows.",
+				"icon": "video",
+				"name": "CinebyTv",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://cinebytv.com/"
+			},
+			{
+				"desc": "Watch your favourite Movies and TV Shows.",
+				"icon": "video",
+				"name": "123Movies",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://ww8.123moviesfree.net/home/"
+			},
+			{
+				"desc": "Watch your favourite Movies and TV Shows.",
+				"icon": "video",
+				"name": "HdToday",
+				"requires_signup": false,
+				"tags": [
+					"streaming",
+					"video",
+					"live",
+					"tv"
+				],
+				"url": "https://hdtoday.tr/"
+			}
+		]
+	},
+	{
+		"category_name": "Music Download",
+		"category_slug": "music-download",
+		"sites": [
+			{
+				"desc": "An online tool to download Spotify tracks, Playlists & albums. No need to have a Spotify account.",
+				"icon": "audio",
+				"name": "Spotify Downloader",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"music",
+					"spotify",
+					"ad-free"
+				],
+				"url": "https://spotidown.co/en6"
+			},
+			{
+				"desc": "Youtube Music downloader that let's you download the songs simply by copy and pasting the link.",
+				"icon": "audio",
+				"name": "Vids Save",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"music",
+					"youtube",
+					"youtube music",
+					"ad-free"
+				],
+				"url": "https://vidssave.com/youtube-music-download-2az"
+			},
+			{
+				"desc": "Download anything from the web whether it’s a video, an audio, or a playlist, in preferred quality, format, and options.",
+				"icon": "audio",
+				"name": "Ytdlnis",
+				"requires_signup": false,
+				"tags": [
+					"audio",
+					"music",
+					"youtube",
+					"youtube music",
+					"ad-free"
+				],
+				"url": "https://ytdlnis.com/"
+			}
+		]
+	},
+	{
+		"category_name": "Office & Productivity",
+		"category_slug": "productivity ",
+		"sites": [
+			{
+				"desc": "A powerful, clean open-source office productivity suite that replaces Microsoft Office.",
+				"icon": "sparkles",
+				"name": "LibreOffice",
+				"requires_signup": false,
+				"tags": [
+					"productivity",
+					"office",
+					"MS Office",
+					"study"
+				],
+				"url": "https://www.libreoffice.org/"
+			},
+			{
+				"desc": "The free Office suite built for everyday work. Bringing AI Copilot, Cloud Docs, and seamless multi-device sync.",
+				"icon": "sparkles",
+				"name": "WPS Office",
+				"requires_signup": false,
+				"tags": [
+					"productivity",
+					"office",
+					"MS Office",
+					"study"
+				],
+				"url": "https://www.wps.com/"
+			},
+			{
+				"desc": "An open-source Windows and Office activator with step by step instructions to install and activate Office suit and Windows.",
+				"icon": "sparkles",
+				"name": "MassGrave",
+				"requires_signup": false,
+				"tags": [
+					"productivity",
+					"office",
+					"study",
+					"MS Office",
+					"windows"
+				],
+				"url": "https://massgrave.dev/genuine-installation-media"
+			}
+		]
+	},
+	{
+		"category_name": "Stock Assets",
+		"category_slug": "media-assets",
+		"sites": [
+			{
+				"desc": "The internet's source of freely usable, stunning, and high-resolution stock photography.",
+				"icon": "palette",
+				"name": "Unsplash",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"images",
+					"media",
+					"photos",
+					"stock"
+				],
+				"url": "https://unsplash.com"
+			},
+			{
+				"desc": "High-quality, completely free stock photos and footage loops shared by talented creators globally.",
+				"icon": "palette",
+				"name": "Pexels",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"images",
+					"videos",
+					"assets",
+					"stock"
+				],
+				"url": "https://pexels.com"
+			},
+			{
+				"desc": "Royalty Free images, stock videos, audio, music, illustrations.",
+				"icon": "palette",
+				"name": "Pixabay",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"images",
+					"videos",
+					"assets",
+					"stock"
+				],
+				"url": "https://pixabay.com/"
+			},
+			{
+				"desc": "A vast collection of over 5000+ open-source pixel-perfect responsive vector SVG icons needing no attribution.",
+				"icon": "palette",
+				"name": "Tabler Icons",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"icons",
+					"svg",
+					"vector",
+					"assets"
+				],
+				"url": "https://tabler.io"
+			},
+			{
+				"desc": "Large icon packs of over 10k icons, so you can find visually consistent icons for all your designs",
+				"icon": "palette",
+				"name": "Icons",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"icons",
+					"svg",
+					"vector",
+					"assets"
+				],
+				"url": "https://icons8.com/icons"
+			},
+			{
+				"desc": "A vast library of free to download and use fonts with commercial license.",
+				"icon": "palette",
+				"name": "1001 Free Fonts",
+				"requires_signup": false,
+				"tags": [
+					"design",
+					"icons",
+					"svg",
+					"vector",
+					"assets"
+				],
+				"url": "https://www.1001freefonts.com/"
+			}
+		]
+	},
+	{
+		"category_name": "Video Editing",
+		"category_slug": "video",
+		"sites": [
+			{
+				"desc": "A open source CapCut alternative right in your browser.",
+				"icon": "video",
+				"name": "Open Cut",
+				"requires_signup": false,
+				"tags": [
+					"video",
+					"editing",
+					"media"
+				],
+				"url": "https://opencut.app"
+			},
+			{
+				"desc": "A free, open-source, cross-platform video editor with sleek timeline editing capabilities.",
+				"icon": "video",
+				"name": "Shotcut",
+				"requires_signup": false,
+				"tags": [
+					"video",
+					"editing",
+					"free"
+				],
+				"url": "https://shotcut.org"
+			},
+			{
+				"desc": "A free, open-source video editor that’s easy to use, quick to learn, and surprisingly powerful.",
+				"icon": "video",
+				"name": "OpenShot",
+				"requires_signup": false,
+				"tags": [
+					"video",
+					"editing",
+					"free"
+				],
+				"url": "https://www.openshot.org/"
+			}
+		]
+	}
 ]
