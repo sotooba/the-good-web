@@ -308,6 +308,27 @@ body.theme-dark {
   line-height: 1.7;
 }
 
+.notice-card {
+  border-radius: 1rem;
+  background: var(--panel-bg);
+  box-shadow: 0 10px 24px var(--shadow-color);
+  border: 1px solid var(--bs-border-color);
+}
+
+.notice-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+  flex-shrink: 0;
+  margin-top: 0.18rem;
+}
+
+.notice-icon svg {
+  width: 1rem;
+  height: 1rem;
+}
+
 .card-footer {
   padding: 0;
   margin-top: auto;
