@@ -8,28 +8,32 @@
         "url": "https://capcut.com",
         "desc": "A deeply versatile browser-based multi-track video timeline tool.",
         "icon": "video",
-        "requires_signup": true
+        "requires_signup": true,
+        "tags": ["video", "editing", "media"]
       },
       {
         "name": "HandBrake",
         "url": "https://handbrake.fr",
         "desc": "The open-source standard for converting video files from nearly any format.",
         "icon": "film",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["video", "conversion", "media"]
       },
       {
         "name": "Shotcut",
         "url": "https://shotcut.org",
         "desc": "A free, open-source, cross-platform video editor with sleek timeline editing capabilities.",
         "icon": "video",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["video", "editing", "free"]
       },
       {
         "name": "LosslessCut",
         "url": "https://github.com",
         "desc": "The ultimate tool for extremely fast, lossless trimming and cutting of video and audio files.",
         "icon": "film",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["video", "editing", "cutting"]
       }
     ]
   },
@@ -42,28 +46,32 @@
         "url": "https://zotero.org",
         "desc": "An open-source desktop application to help you collect and organize research sources.",
         "icon": "sparkles",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["research", "studying", "organization"]
       },
       {
         "name": "OpenAlex",
         "url": "https://openalex.org",
         "desc": "A free and open catalog of scholarly works that makes research discovery easier.",
         "icon": "sparkles",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["research", "scholarship", "discovery"]
       },
       {
         "name": "ZoteroBib",
         "url": "https://zbib.org",
         "desc": "A fast web companion that helps you build a bibliography instantly without installing any software.",
         "icon": "sparkles",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["research", "bibliography", "writing"]
       },
       {
         "name": "LibreOffice",
         "url": "https://libreoffice.org",
         "desc": "A powerful, clean open-source office productivity suite that replaces Microsoft Office.",
         "icon": "sparkles",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["productivity", "office", "study"]
       }
     ]
   },
@@ -76,28 +84,32 @@
         "url": "https://excalidraw.com",
         "desc": "A polished collaborative whiteboard for sketches, diagrams, and quick planning.",
         "icon": "palette",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["design", "collaboration", "planning"]
       },
       {
         "name": "Trello",
         "url": "https://trello.com",
         "desc": "A friendly board-based tool for organizing projects without friction.",
         "icon": "sparkles",
-        "requires_signup": true
+        "requires_signup": true,
+        "tags": ["productivity", "planning", "organization"]
       },
       {
         "name": "Photopea",
         "url": "https://photopea.com",
         "desc": "An incredibly powerful web-based graphics editor that looks and feels just like Photoshop.",
         "icon": "palette",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["design", "editing", "graphics"]
       },
       {
         "name": "Unsplash",
         "url": "https://unsplash.com",
         "desc": "The internet's source of freely usable, stunning, and high-resolution stock photography.",
         "icon": "palette",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["design", "images", "media"]
       }
     ]
   },
@@ -110,14 +122,16 @@
         "url": "https://tubitv.com",
         "desc": "A safe, legal streaming catalog holding thousands of movies and live television channels completely free.",
         "icon": "video",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["streaming", "video", "entertainment"]
       },
       {
         "name": "Pluto TV",
         "url": "https://pluto.tv",
         "desc": "Drop in to hundreds of live channels and on-demand movies mimicking the classic cable box setup.",
         "icon": "video",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["streaming", "video", "live"]
       }
     ]
   },
@@ -130,14 +144,16 @@
         "url": "https://audacityteam.org",
         "desc": "The legendary open-source multitrack audio recorder and editor used by creators worldwide.",
         "icon": "film",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["audio", "editing", "music"]
       },
       {
         "name": "Radio Garden",
         "url": "https://radio.garden",
         "desc": "An interactive globe map that allows you to rotate the world and listen to live radio stations anywhere.",
         "icon": "film",
-        "requires_signup": false
+        "requires_signup": false,
+        "tags": ["audio", "radio", "streaming"]
       }
     ]
   }
