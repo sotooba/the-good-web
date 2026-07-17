@@ -1,34 +1,58 @@
 # The Good Web
-A hand-compiled, minimalist directory of free, incredibly useful web resources that require no money, credit cards, or hidden paywalls.
 
-## Overview
-This project is a simple static website built with Eleventy. It showcases a curated list of useful websites and makes it easy to discover thoughtful tools without subscriptions or paywalls.
+### 🌐 [Explore the Live Directory](https://the-good-web.vercel.app/)
 
-## Development
-Install dependencies and start the local preview:
+A hand-compiled, minimalist digital directory of genuinely free lists of lists, and incredibly useful web resources that require no money, credit cards, or hidden paywalls.
 
-```bash
-npm install
-npm run serve
-```
+## 🧭 Overview
+This project is a 100% static frontend directory built with **Eleventy (11ty)** and **Bootstrap 5**. It is designed to act as a quiet corner of the internet helping users discover thoughtful tools without tracking or subscription fatigue.
 
-To build the site for production:
+The live application is hosted completely for free via automatic deployments on **Vercel**.
 
-```bash
-npm run build
-```
+## 💻 Development & Workspace
 
-## Contributing
-You can help improve the website by adding or updating entries in the data file and submitting a pull request.
+This project is optimized to run in the cloud using **GitHub Codespaces**, meaning you do not need to install Node.js, npm, or heavy modules on your local machine.
 
-1. Open [src/_data/websites.json](src/_data/websites.json).
-2. Add or edit a category or website entry using the existing structure.
-3. Save your changes and verify the site still builds locally:
+### Local/Cloud Preview
+To spin up the built-in development engine and launch the live-refreshing browser preview panel, execute this script inside your workspace terminal:
 
 ```bash
-npm run build
+npx @11ty/eleventy --serve
 ```
 
-4. Commit your changes and open a pull request with a short summary of what you updated.
+Once the terminal outputs that the server is live, look for the Codespaces pop-up alert and click **Open in Browser** to view the live dashboard.
 
-If you are adding a new site, please make sure the link is useful, relevant, and still free to access.
+### Production Build
+To test the hard-compiled static distribution architecture locally before pushing updates:
+
+```bash
+npx @11ty/eleventy
+```
+
+## 🤝 Contributing & Curation
+You can help expand this digital library by verifying free tools and adding entries directly to the database file. 
+
+To open a pull request, follow these exact structure guidelines:
+
+1. Open the data layer file located at: `src/_data/websites.json`.
+2. Locate or create the correct category block node.
+3. Append your new link entry ensuring properties follow the strict structural hierarchy order:
+
+```json
+{
+  "name": "Website Name",
+  "url": "https://example.com",
+  "icon": "matching-vector-keyword",
+  "tags": ["tag1", "tag2"],
+  "requires_signup": false,
+  "desc": "A brief description of what the tool accomplishes cleanly."
+}
+```
+
+### Core Curation Rules
+Before submitting your pull request, you must verify that the suggested asset meets our strict community baseline requirements:
+* **True Zero Cost**: The link must carry no hidden tier limits, trial expiration dates, mandatory paywalls, or forced credit card inputs.
+* **Strict Parameter Sorting**: The object dictionary **MUST** place the `"name"` and `"url"` variables at the very top, and position the `"desc"` string at the absolute bottom.
+* **Theme Compliant Icons**: Use a relevant keyword string for the `"icon"` field (`video`, `film`, `tv`, `music`, `audio`, `download`, `palette`, `sparkles`, `book`, `code`, `type`) so our inline Nunjucks loop system can hook and generate the correct vector graphic boundaries seamlessly.
+
+4. Save your changes, run your local test server loop to verify that the grid scales cleanly, commit your branch, and submit your pull request!
