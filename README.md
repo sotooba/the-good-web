@@ -1,6 +1,6 @@
 # The Good Web
 
-### 🌐 [Explore the Live Directory](https://the-good-web.vercel.app/)
+### 🌐 [Explore the Live Directory](https://thegoodweb.vercel.app/)
 
 A hand-compiled, minimalist digital directory of genuinely free lists of lists, and incredibly useful web resources that require no money, credit cards, or hidden paywalls.
 
