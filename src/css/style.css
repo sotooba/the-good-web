@@ -55,9 +55,9 @@ body.theme-dark {
   --chip-color: #9d3c21;
   --panel-bg: #f7f3eb;
   --shadow-color: rgba(30, 32, 41, 0.08);
-  --bg-green: #daffc7;  
-  --border-green: #baeeb6;
-  --icon-green: rgb(13, 221, 48);
+  --bg-green: #f2f6f0;  
+  --border-green: #d1ded0;
+  --icon-green: #49aa41;
 }
 
 [data-bs-theme="dark"] {
