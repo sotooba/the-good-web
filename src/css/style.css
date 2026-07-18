@@ -51,7 +51,6 @@ body.theme-dark {
   --bs-card-bg: #ffffff;
   --accent-color: #c84b23;
   --accent-strong: #a33b1d;
-  --signup-pill-bg: #f2efe9;
   --chip-bg: rgba(200, 75, 35, 0.1);
   --chip-color: #9d3c21;
   --panel-bg: #f7f3eb;
@@ -69,7 +68,6 @@ body.theme-dark {
   --bs-card-bg: #1e1c1a;
   --accent-color: #f27a43;
   --accent-strong: #ff8f5b;
-  --signup-pill-bg: #2b2723;
   --chip-bg: rgba(242, 122, 67, 0.15);
   --chip-color: #ffd0b2;
   --panel-bg: #201d1b;
