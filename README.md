@@ -44,7 +44,6 @@ To open a pull request, follow these exact structure guidelines:
   "url": "https://example.com",
   "icon": "matching-vector-keyword",
   "tags": ["tag1", "tag2"],
-  "requires_signup": false,
   "desc": "A brief description of what the tool accomplishes cleanly."
 }
 ```
