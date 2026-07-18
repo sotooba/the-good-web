@@ -48,7 +48,11 @@
             "tags":[
                "free",
                "media index",
-               "entertainment"
+               "entertainment",
+               "streaming",
+               "movies / TV shows",
+               "anime",
+               "manga"
             ]
          },
          {
@@ -58,9 +62,13 @@
             "icon":"sparkles",
             "requires_signup":false,
             "tags":[
-               "free",
+                "free",
                "media index",
-               "streaming"
+               "entertainment",
+               "streaming",
+               "movies / TV shows",
+               "anime",
+               "manga"
             ]
          },
          {
@@ -99,7 +107,130 @@
       ]
    },
    {
-      "category_name":"Streaming",
+    "category_name": "Movies-TV Shows",
+    "category_slug": "streaming",
+    "sites": [
+      {
+        "name": "Tubi TV",
+        "url": "https://tubitv.com",
+        "icon": "video",
+        "tags": [
+          "streaming",
+          "video",
+          "entertainment",
+          "movies"
+        ],
+        
+        "desc": "A premium, ad-supported streaming platform that hosts thousands of Hollywood movies, live TV networks, and sports coverage completely free without subscription roadblocks."
+      },
+      {
+        "name": "Pluto TV",
+        "url": "https://pluto.tv",
+        "icon": "tv",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "A specialized live television simulator featuring hundreds of themed content channels, curated series marathons, and on-demand movies mimicking the classic cable box experience."
+      },
+      {
+        "name": "RemoFlix",
+        "url": "https://ramoflix.net/",
+        "icon": "film",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "A comprehensive web-based indexing directory that gathers and cross-references active streaming links for recent cinematic releases and popular television shows."
+      },
+      {
+        "name": "WMovies",
+        "url": "https://wmovies.org/home/",
+        "icon": "video",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "An expansive video streaming repository aggregating multi-server mirroring links for high-definition television series and global blockbusters."
+      },
+      {
+        "name": "Cineby",
+        "url": "https://www.cineby.at/",
+        "icon": "film",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "A zero-cost media database streaming popular entertainment titles directly to modern desktop and mobile browsers through responsive third-party mirrors."
+      },
+      {
+        "name": "Moviebox",
+        "url": "https://themoviebox.org/",
+        "icon": "video",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "A high-speed directory featuring an organized media matrix across genres like action, superhero series, adult animation, and trending content categories."
+      },
+      {
+        "name": "CinebyTv",
+        "url": "https://cinebytv.com/",
+        "icon": "tv",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "A minimalist companion backup index matching global server links to preserve smooth playback and buffer-free access to episodic television catalog streams."
+      },
+      {
+        "name": "123Movies",
+        "url": "https://ww8.123moviesfree.net/home/",
+        "icon": "film",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "A legacy public media index cataloging categorized lists of international movies and complete seasonal television arcs for registration-free playback."
+      },
+      {
+        "name": "HdToday",
+        "url": "https://hdtoday.tr/",
+        "icon": "video",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv"
+        ],
+        
+        "desc": "A lightweight web portal collecting high-definition mirror sources for fast navigation and instant tracking of late-night movies and global entertainment networks."
+      }
+    ]
+  },
+   {
+      "category_name":"Entertainment",
       "category_slug":"media-curations",
       "sites":[
          {
@@ -219,8 +350,8 @@
       ]
    },
    {
-      "category_name":"Learning Material",
-      "category_slug":"learning-material-students",
+      "category_name":"Education",
+      "category_slug":"education",
       "sites":[
          {
             "name":"Programming Courses",
@@ -232,7 +363,8 @@
                "courses",
                "development",
                "programming courses",
-               "books"
+               "books",
+               "students"
             ]
          },
          {
@@ -426,7 +558,7 @@
           "images",
           "all-in-one"
         ],
-        "requires_signup": false,
+        
         "desc": "An expansive web toolbox packed with AI writers, PDF editors, image background removal nodes, and multi-format file converters."
       },
       {
@@ -442,7 +574,7 @@
           "editing",
           "all-in-one"
         ],
-        "requires_signup": false,
+        
         "desc": "A complete browser app suite containing independent audio extractors, video cutters, format transcoders, and screen recorders."
       },
       {
@@ -457,7 +589,7 @@
           "downloader",
           "all-in-one"
         ],
-        "requires_signup": false,
+        
         "desc": "A minimalist toolkit featuring direct social utilities like YouTube thumbnail grabbers, image splitters, and metadata extractors."
       }
     ]
@@ -494,7 +626,7 @@
           "effects",
           "video"
         ],
-        "requires_signup": false,
+        
         "desc": "A premium library providing production-ready sound effects and background musical clips entirely signup-free."
       },
       {
@@ -509,13 +641,13 @@
           "cinematic",
           "youtube"
         ],
-        "requires_signup": false,
+        
         "desc": "The definitive archive of genre-sorted cinematic tracks mapped by composer Kevin MacLeod for streaming and gameplay background tracks."
       }
     ]
   },
    {
-      "category_name":"Books Resources",
+      "category_name":"Books",
       "category_slug":"books",
       "sites":[
          {
@@ -714,129 +846,6 @@
       ]
    },
   {
-    "category_name": "Movies & Streaming",
-    "category_slug": "streaming",
-    "sites": [
-      {
-        "name": "Tubi TV",
-        "url": "https://tubitv.com",
-        "icon": "video",
-        "tags": [
-          "streaming",
-          "video",
-          "entertainment",
-          "movies"
-        ],
-        "requires_signup": false,
-        "desc": "A premium, ad-supported streaming platform that hosts thousands of Hollywood movies, live TV networks, and sports coverage completely free without subscription roadblocks."
-      },
-      {
-        "name": "Pluto TV",
-        "url": "https://pluto.tv",
-        "icon": "tv",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "A specialized live television simulator featuring hundreds of themed content channels, curated series marathons, and on-demand movies mimicking the classic cable box experience."
-      },
-      {
-        "name": "RemoFlix",
-        "url": "https://ramoflix.net/",
-        "icon": "film",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "A comprehensive web-based indexing directory that gathers and cross-references active streaming links for recent cinematic releases and popular television shows."
-      },
-      {
-        "name": "WMovies",
-        "url": "https://wmovies.org/home/",
-        "icon": "video",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "An expansive video streaming repository aggregating multi-server mirroring links for high-definition television series and global blockbusters."
-      },
-      {
-        "name": "Cineby",
-        "url": "https://www.cineby.at/",
-        "icon": "film",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "A zero-cost media database streaming popular entertainment titles directly to modern desktop and mobile browsers through responsive third-party mirrors."
-      },
-      {
-        "name": "Moviebox",
-        "url": "https://themoviebox.org/",
-        "icon": "video",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "A high-speed directory featuring an organized media matrix across genres like action, superhero series, adult animation, and trending content categories."
-      },
-      {
-        "name": "CinebyTv",
-        "url": "https://cinebytv.com/",
-        "icon": "tv",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "A minimalist companion backup index matching global server links to preserve smooth playback and buffer-free access to episodic television catalog streams."
-      },
-      {
-        "name": "123Movies",
-        "url": "https://ww8.123moviesfree.net/home/",
-        "icon": "film",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "A legacy public media index cataloging categorized lists of international movies and complete seasonal television arcs for registration-free playback."
-      },
-      {
-        "name": "HdToday",
-        "url": "https://hdtoday.tr/",
-        "icon": "video",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        "requires_signup": false,
-        "desc": "A lightweight web portal collecting high-definition mirror sources for fast navigation and instant tracking of late-night movies and global entertainment networks."
-      }
-    ]
-  },
-  {
     "category_name": "Music/Videos Download",
     "category_slug": "music-download",
     "sites": [
@@ -850,7 +859,7 @@
           "spotify",
           "ad-free"
         ],
-        "requires_signup": false,
+        
         "desc": "An effortless online media tool that downloads any Spotify track as a high-quality 320kbps MP3 or bundles entire albums and playlists into compressed ZIP archives completely registration-free."
       },
       {
@@ -864,7 +873,7 @@
           "youtube music",
           "ad-free"
         ],
-        "requires_signup": false,
+        
         "desc": "A completely browser-based, ad-free conversion interface built to parse YouTube Music links and convert streams into high-bitrate offline audio tracks with high-speed processing pipelines."
       },
       {
@@ -878,13 +887,13 @@
           "youtube music",
           "ad-free"
         ],
-        "requires_signup": false,
+        
         "desc": "Download anything from the web whether it’s a video, an audio, or a playlist, matching your preferred resolution formats, encoding frameworks, and track segment options."
       }
     ]
   },
   {
-    "category_name": "Office & Productivity",
+    "category_name": "MS Office",
     "category_slug": "productivity",
     "sites": [
       {
@@ -897,7 +906,7 @@
           "MS Office",
           "study"
         ],
-        "requires_signup": false,
+        
         "desc": "A powerful, clean open-source office productivity suite equipped with word processing, spreadsheet analysis, and vector illustration tools that serves as a total replacement for Microsoft Office."
       },
       {
@@ -910,7 +919,7 @@
           "MS Office",
           "study"
         ],
-        "requires_signup": false,
+        
         "desc": "A free, lightweight office suite built for everyday work, seamlessly packing writing, spreadsheet composition, presentation creation, and full cloud co-editing tools into a single ecosystem."
       },
       {
@@ -924,7 +933,7 @@
           "MS Office",
           "windows"
         ],
-        "requires_signup": false,
+        
         "desc": "A legendary community documentation portal hosting verified checksum hashes and direct installation matrices to help users source authentic, unmodified Microsoft Windows and Office deployment media."
       }
     ]
@@ -944,7 +953,7 @@
           "photos",
           "stock"
         ],
-        "requires_signup": false,
+        
         "desc": "The internet's source of freely usable, stunning, and high-resolution stock photography."
       },
       {
@@ -958,7 +967,7 @@
           "assets",
           "stock"
         ],
-        "requires_signup": false,
+        
         "desc": "High-quality, completely free stock photos and footage loops shared by talented creators globally."
       },
       {
@@ -972,7 +981,7 @@
           "assets",
           "stock"
         ],
-        "requires_signup": false,
+        
         "desc": "Royalty Free images, stock videos, audio, music, and vector illustrations."
       },
       {
@@ -986,7 +995,7 @@
           "vector",
           "assets"
         ],
-        "requires_signup": false,
+        
         "desc": "A vast collection of over 6,000+ open-source pixel-perfect responsive vector SVG icons needing no attribution under the MIT license."
       },
       {
@@ -1000,7 +1009,7 @@
           "vector",
           "assets"
         ],
-        "requires_signup": false,
+        
         "desc": "Large icon packs of over 10k items, allowing you to find visually consistent assets for all your interface designs."
       },
       {
@@ -1014,7 +1023,7 @@
           "commercial",
           "assets"
         ],
-        "requires_signup": false,
+        
         "desc": "A vast library of free-to-download categorized fonts equipped with clear commercial use licensing options."
       }
     ]
@@ -1032,7 +1041,7 @@
           "editing",
           "media"
         ],
-        "requires_signup": false,
+        
         "desc": "An interactive, open-source CapCut alternative right in your browser."
       },
       {
@@ -1044,7 +1053,7 @@
           "editing",
           "free"
         ],
-        "requires_signup": false,
+        
         "desc": "A free, open-source, cross-platform video editor with sleek timeline editing capabilities."
       },
       {
@@ -1056,7 +1065,7 @@
           "editing",
           "free"
         ],
-        "requires_signup": false,
+        
         "desc": "A free, open-source video editor that’s easy to use, quick to learn, and surprisingly powerful."
       },
       {
@@ -1069,7 +1078,7 @@
           "graphics",
           "photoshop"
         ],
-        "requires_signup": false,
+        
         "desc": "An incredibly powerful web-based graphics editor that looks and feels just like Photoshop."
       },
       {
@@ -1083,7 +1092,7 @@
           "canva",
           "editing"
         ],
-        "requires_signup": false,
+        
         "desc": "A powerful, drag-and-drop graphic design web application serving as a signup-free Canva alternative."
       },
       {
@@ -1097,7 +1106,7 @@
           "canva",
           "editing"
         ],
-        "requires_signup": false,
+        
         "desc": "The official desktop suite for the GNU Image Manipulation Program, providing robust tools for high-quality photo manipulation and original artwork creation."
       }
     ]
