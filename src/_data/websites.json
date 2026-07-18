@@ -1125,5 +1125,32 @@
         "desc": "The official desktop suite for high-quality photo manipulation and original artwork creation."
       }
     ]
+  },
+  {
+   "category_name": "Wallpapers",
+   "category_slug": "wallpapers",
+   "sites":[
+      {
+         "name": "Wallhaven",
+         "url": "https://wallhaven.cc/",
+         "icon": "wallpaper",
+         "tags": ["wallpapers", "desktop wallpapers", "hd wallpapers", "mobile wallpapers"],
+         "desc": "Home to 1,307,435 high quality desktop wallpapers."
+      },
+      {
+         "name": "Wallsflow",
+         "url": "https://wallsflow.com/",
+         "icon": "wallpaper",
+         "tags": ["wallpapers", "desktop wallpapers", "hd wallpapers", "mobile wallpapers"],
+         "desc": "High Quality Live wallpapers for desktop and beautiful wallpapers for mobile phones."
+      },
+      {
+         "name": "WallnestHd",
+         "url": "https://wallnesthd.com/",
+         "icon": "wallpaper",
+         "tags": ["wallpapers", "desktop wallpapers", "hd wallpapers", "mobile wallpapers"],
+         "desc": "Millions of wallpapers from Pexels, Unsplash, Pixabay & NASA. Curated. Free. Forever."
+      }
+   ]
   }
 ]
