@@ -74,7 +74,7 @@
          {
             "name":"Awesome List",
             "url":"https://github.com/sindresorhus/awesome",
-            "desc":"A list of useful sites for various tasks along with some fun things to do when you're bored.",
+            "desc":"An awesome list of about all kind of stuff.",
             "icon":"compass",
             
             "tags":[
@@ -85,8 +85,8 @@
          {
             "name":"CDCruz",
             "url":"https://www.cdcruz.com/p/useful_sites.html",
-            "desc":"An awesome list of lists about all kinds of interesting topics",
-            "icon":"sparkles",
+            "desc":"A list of useful sites for various tasks along with some fun things to do when you're bored.",
+            "icon":"compass",
             
             "tags":[
                "free tools"
@@ -135,19 +135,6 @@
         ],
         
         "desc": "A specialized live television simulator featuring hundreds of themed content channels, curated series marathons, and on-demand movies mimicking the classic cable box experience."
-      },
-      {
-        "name": "RemoFlix",
-        "url": "https://ramoflix.net/",
-        "icon": "film",
-        "tags": [
-          "streaming",
-          "video",
-          "live",
-          "tv"
-        ],
-        
-        "desc": "A comprehensive web-based indexing directory that gathers and cross-references active streaming links for recent cinematic releases and popular television shows."
       },
       {
         "name": "WMovies",
