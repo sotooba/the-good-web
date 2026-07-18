@@ -56,6 +56,9 @@ body.theme-dark {
   --chip-color: #9d3c21;
   --panel-bg: #f7f3eb;
   --shadow-color: rgba(30, 32, 41, 0.08);
+  --bg-green: #daffc7;  
+  --border-green: #baeeb6;
+  --icon-green: rgb(13, 221, 48);
 }
 
 [data-bs-theme="dark"] {
@@ -71,6 +74,9 @@ body.theme-dark {
   --chip-color: #ffd0b2;
   --panel-bg: #201d1b;
   --shadow-color: rgba(0, 0, 0, 0.28);
+  --bg-green: #1a2219;       
+  --border-green: #2c3a2a; 
+  --icon-green: rgb(41, 216, 62);
 }
 
 .page-shell {
@@ -310,9 +316,11 @@ body.theme-dark {
 
 .notice-card {
   border-radius: 1rem;
-  background: var(--panel-bg);
+  background-color: var(--bg-green) !important;
+  border: 1px solid var(--border-green) !important;
+  color: var(--text-dark) !important;
   box-shadow: 0 10px 24px var(--shadow-color);
-  border: 1px solid var(--bs-border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .notice-icon {
