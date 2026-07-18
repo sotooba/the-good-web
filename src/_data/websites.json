@@ -213,6 +213,20 @@
         ],
         
         "desc": "A lightweight web portal collecting high-definition mirror sources for fast navigation and instant tracking of late-night movies and global entertainment networks."
+      },
+      {
+        "name": "HdTodayTV",
+        "url": "https://hdtoday.one/home/",
+        "icon": "film",
+        "tags": [
+          "streaming",
+          "video",
+          "live",
+          "tv",
+          "hdtoday"
+        ],
+        
+        "desc": "A classical lightweight web portal collecting high-definition mirror sources for fast navigation and instant tracking of late-night movies and global entertainment networks."
       }
     ]
   },
