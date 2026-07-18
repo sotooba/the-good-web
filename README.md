@@ -17,7 +17,7 @@ This project is optimized to run in the cloud using **GitHub Codespaces**, meani
 To spin up the built-in development engine and launch the live-refreshing browser preview panel, execute this script inside your workspace terminal:
 
 ```bash
-npx @11ty/eleventy --serve
+npm start
 ```
 
 Once the terminal outputs that the server is live, look for the Codespaces pop-up alert and click **Open in Browser** to view the live dashboard.
