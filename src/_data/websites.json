@@ -8,7 +8,7 @@
             "url":"https://fmhy.net/",
             "desc":"The largest and most fiercely maintained collection of free resources on the internet.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free",
                "mega index",
@@ -20,7 +20,7 @@
             "url":"https://github.com/atakanaltok/awesome-useful-websites",
             "desc":"Hand-curated list of awesome, useful and hidden internet websites.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free",
                "mega index",
@@ -32,7 +32,7 @@
             "url":"https://nosignups.net",
             "desc":"A brilliant index of online open-source tools that work instantly in your browser without tracking.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free",
                "no signups",
@@ -44,7 +44,7 @@
             "url":"https://yarrlist.net/",
             "desc":"A clean directory of free media streams, digital books, gaming emulators, and software assets.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free",
                "media index",
@@ -60,7 +60,7 @@
             "url":"https://ahoylist.net/",
             "desc":"A comprehensive index tracking streaming links, software tools, and privacy accessories.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                 "free",
                "media index",
@@ -76,7 +76,7 @@
             "url":"https://github.com/sindresorhus/awesome",
             "desc":"A list of useful sites for various tasks along with some fun things to do when you're bored.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free data",
                "useful websites"
@@ -87,7 +87,7 @@
             "url":"https://www.cdcruz.com/p/useful_sites.html",
             "desc":"An awesome list of lists about all kinds of interesting topics",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free tools"
             ]
@@ -97,7 +97,7 @@
             "url":"https://github.com/btw-so/open-source-alternatives",
             "desc":"List of open-source alternatives to everyday SaaS products.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -238,7 +238,7 @@
             "url":"https://github.com/chayotic/Open-Source-Music-Streaming-Apps",
             "desc":"A curated collection of free, open-source alternatives to Spotify and YouTube Music.",
             "icon":"audio",
-            "requires_signup":false,
+            
             "tags":[
                "free music",
                "spotify alternative",
@@ -250,7 +250,7 @@
             "url":"https://list.vidpop.xyz/?page=home",
             "desc":"A highly accurate, crowd-verified checklist tracking active movie and TV streaming locations.",
             "icon":"film",
-            "requires_signup":false,
+            
             "tags":[
                "free movies",
                "streaming tv",
@@ -262,7 +262,7 @@
             "url":"https://github.com/PrejudiceNeutrino/YouTube_Channels",
             "desc":"A massive, categorized library of high-quality educational and science channels on YouTube.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "education",
                "tutorials",
@@ -280,7 +280,7 @@
             "url":"https://md8-habibullah.github.io/top-github-repos-list/",
             "desc":"The ultimate developer guide sorting high-impact open-source repositories by category.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "github repo",
                "open source",
@@ -292,7 +292,7 @@
             "url":"https://github.com",
             "desc":"A brilliant compilation of step-by-step guides for re-creating favorite technologies from scratch.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "programming",
                "tutorials",
@@ -304,7 +304,7 @@
             "url":"https://github.com/public-apis/public-apis",
             "desc":"A collective network directory tracking thousands of free public APIs for development.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "apis",
                "development",
@@ -316,7 +316,7 @@
             "url":"https://github.com/ripienaar/free-for-dev",
             "desc":"A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "resources",
                "development",
@@ -328,7 +328,7 @@
             "url":"https://github.com/kilimchoi/engineering-blogs",
             "desc":"A list of techincal blogs of software engeneering companies.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "blogs",
                "development",
@@ -340,7 +340,7 @@
             "url":"https://github.com/papers-we-love/papers-we-love",
             "desc":"This list contains computer science and other techincal research papers",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "research papers",
                "tech blogs",
@@ -358,7 +358,7 @@
             "url":"https://github.com/EbookFoundation/free-programming-books",
             "desc":"A list of programming books and courses in multiple spoken languages.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "courses",
                "development",
@@ -372,7 +372,7 @@
             "url":"https://github.com/ossu/computer-science",
             "desc":"Open Source Society University, Path to a free self-taught education in Computer Science.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "computer science",
                "course",
@@ -384,7 +384,7 @@
             "url":"https://roadmap.sh/",
             "desc":"Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "roadmap"
             ]
@@ -394,7 +394,7 @@
             "url":"https://github.com/donnemartin/system-design-primer",
             "desc":"Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "system design",
                "development",
@@ -406,7 +406,7 @@
             "url":"https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
             "desc":"Best websites to visit for the people learning computer science to learn new things and always stay informed about tech",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "tech",
                "development",
@@ -418,7 +418,7 @@
             "url":"https://github.com/eriklindernoren/ML-From-Scratch",
             "desc":"Python implementations of some of the fundamental Machine Learning models and algorithms from scratch.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "machine learning",
                "numpy",
@@ -436,7 +436,7 @@
             "url":"https://github.com/Axorax/awesome-free-apps",
             "desc":"A curated list of the best free apps for PC (including Linux) and mobile.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -448,7 +448,7 @@
             "url":"https://openaltfinder.com/",
             "desc":"Browse and find the free, self-hostable alternatives to the tools you rely on every day.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -460,7 +460,7 @@
             "url":"https://raw.githubusercontent.com/lakey009/AI-Tools-List/refs/heads/main/AIToolsList.json",
             "desc":"A curated JSON-based directory of AI-powered tools, services, and platforms.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -472,7 +472,7 @@
             "url":"https://awesome-selfhosted.net/",
             "desc":"A list of Free Software network services and web applications which can be hosted on your own server.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -484,7 +484,7 @@
             "url":"https://github.com/geraldohomero/best-foss-alternatives",
             "desc":"A List of the Best Free and Open Source (not all) Software Alternatives for Security and Privacy.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -496,7 +496,7 @@
             "url":"https://euro-stack.com/",
             "desc":"A list of trusted European services and open source technologies to put you in control of your digital stack.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -508,7 +508,7 @@
             "url":"https://europeantechmap.eu/",
             "desc":"A list of trusted European services and open source technologies.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -520,7 +520,7 @@
             "url":"https://openalternative.co/",
             "desc":"A constantly updated ist of open source alternatives to popular softwares.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -532,7 +532,7 @@
             "url":"https://openalternative.co/",
             "desc":"A software hub to download the FOSS softwares.",
             "icon":"sparkles",
-            "requires_signup":false,
+            
             "tags":[
                "free alternatives",
                "open source softwares",
@@ -658,7 +658,7 @@
                "Classic Literature",
                "Historical Texts"
             ],
-            "requires_signup":false,
+            
             "desc":"A massive archive of over 70,000 older literary works digitized from the public domain."
          },
          {
@@ -670,7 +670,7 @@
                "Textbooks",
                "Lending Library"
             ],
-            "requires_signup":false,
+            
             "desc":"An open, editable library catalog that lets you borrow millions of scanned digital books online."
          },
          {
@@ -681,7 +681,7 @@
                "Free Ebooks",
                "Public Domain"
             ],
-            "requires_signup":false,
+            
             "desc":"A volunteer-driven project that re-formats public domain books into beautiful, modern, typography-accurate ebooks."
          },
          {
@@ -694,7 +694,7 @@
                "Free books",
                "Kindle Books"
             ],
-            "requires_signup":false,
+            
             "desc":"Most popular IT and Computer Science E-books."
          },
          {
@@ -708,7 +708,7 @@
                "Free books",
                "Kindle Books"
             ],
-            "requires_signup":false,
+            
             "desc":"A free search engine which allows you to search, preview and download millions of PDF files into your devices"
          },
          {
@@ -722,7 +722,7 @@
                "Free books",
                "Kindle Books"
             ],
-            "requires_signup":false,
+            
             "desc":"A place to download your favourite books in PDF or EPUB at no cost."
          }
       ]
@@ -742,7 +742,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"An open marketplace hosting thousands of free, creative, creator-submitted browser games."
          },
          {
@@ -756,7 +756,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"A massively popular, optimized playground featuring instant-play web versions of famous mobile and indie titles."
          },
          {
@@ -770,7 +770,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"A large web platform serving high-quality, fast-loading HTML5 games across all genres."
          },
          {
@@ -784,7 +784,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"A long-running, active archive hosting massive libraries of multiplayer social games and classic arcade dynamics."
          },
          {
@@ -798,7 +798,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"The historic, creator-driven hub for independent web animation, music, and highly creative browser games."
          },
          {
@@ -812,7 +812,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"A legendary portal hosting a curated collection of polished indie web and browser games."
          },
          {
@@ -826,7 +826,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"An expansive web gaming platform complete with community chats, badges, and thousands of titles."
          },
          {
@@ -840,7 +840,7 @@
                "free games",
                "browser games"
             ],
-            "requires_signup":false,
+            
             "desc":"An interactive museum of internet culture featuring fully functional emulators, preserved games (GTA Vice City, Minecraft, Angry Birds)."
          }
       ]
