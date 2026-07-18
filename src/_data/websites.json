@@ -7,7 +7,7 @@
             "name":"FMHY",
             "url":"https://fmhy.net/",
             "desc":"The largest and most fiercely maintained collection of free resources on the internet.",
-            "icon":"sparkles",
+            "icon":"compass",
             
             "tags":[
                "free",
@@ -19,7 +19,7 @@
             "name":"Awesome Websites",
             "url":"https://github.com/atakanaltok/awesome-useful-websites",
             "desc":"Hand-curated list of awesome, useful and hidden internet websites.",
-            "icon":"sparkles",
+            "icon": "compass",
             
             "tags":[
                "free",
@@ -31,7 +31,7 @@
             "name":"No Signups",
             "url":"https://nosignups.net",
             "desc":"A brilliant index of online open-source tools that work instantly in your browser without tracking.",
-            "icon":"sparkles",
+            "icon":"compass",
             
             "tags":[
                "free",
@@ -43,7 +43,7 @@
             "name":"YaarList",
             "url":"https://yarrlist.net/",
             "desc":"A clean directory of free media streams, digital books, gaming emulators, and software assets.",
-            "icon":"sparkles",
+            "icon":"compass",
             
             "tags":[
                "free",
@@ -59,7 +59,7 @@
             "name":"AhoyList",
             "url":"https://ahoylist.net/",
             "desc":"A comprehensive index tracking streaming links, software tools, and privacy accessories.",
-            "icon":"sparkles",
+            "icon":"compass",
             
             "tags":[
                 "free",
@@ -75,7 +75,7 @@
             "name":"Awesome List",
             "url":"https://github.com/sindresorhus/awesome",
             "desc":"A list of useful sites for various tasks along with some fun things to do when you're bored.",
-            "icon":"sparkles",
+            "icon":"compass",
             
             "tags":[
                "free data",
@@ -96,7 +96,7 @@
             "name":"Open Source Alternatives",
             "url":"https://github.com/btw-so/open-source-alternatives",
             "desc":"List of open-source alternatives to everyday SaaS products.",
-            "icon":"sparkles",
+            "icon":"compass",
             
             "tags":[
                "free alternatives",
@@ -113,7 +113,7 @@
       {
         "name": "Tubi TV",
         "url": "https://tubitv.com",
-        "icon": "video",
+        "icon": "film",
         "tags": [
           "streaming",
           "video",
@@ -126,7 +126,7 @@
       {
         "name": "Pluto TV",
         "url": "https://pluto.tv",
-        "icon": "tv",
+        "icon": "film",
         "tags": [
           "streaming",
           "video",
@@ -152,7 +152,7 @@
       {
         "name": "WMovies",
         "url": "https://wmovies.org/home/",
-        "icon": "video",
+        "icon": "film",
         "tags": [
           "streaming",
           "video",
@@ -178,7 +178,7 @@
       {
         "name": "Moviebox",
         "url": "https://themoviebox.org/",
-        "icon": "video",
+        "icon": "film",
         "tags": [
           "streaming",
           "video",
@@ -191,7 +191,7 @@
       {
         "name": "CinebyTv",
         "url": "https://cinebytv.com/",
-        "icon": "tv",
+        "icon": "film",
         "tags": [
           "streaming",
           "video",
@@ -217,7 +217,7 @@
       {
         "name": "HdToday",
         "url": "https://hdtoday.tr/",
-        "icon": "video",
+        "icon": "film",
         "tags": [
           "streaming",
           "video",
@@ -237,7 +237,7 @@
             "name":"Music Streaming Apps",
             "url":"https://github.com/chayotic/Open-Source-Music-Streaming-Apps",
             "desc":"A curated collection of free, open-source alternatives to Spotify and YouTube Music.",
-            "icon":"audio",
+            "icon":"music",
             
             "tags":[
                "free music",
@@ -249,7 +249,7 @@
             "name":"Movie Streaming List",
             "url":"https://list.vidpop.xyz/?page=home",
             "desc":"A highly accurate, crowd-verified checklist tracking active movie and TV streaming locations.",
-            "icon":"film",
+            "icon":"tv",
             
             "tags":[
                "free movies",
@@ -261,7 +261,7 @@
             "name":"Youtube Channels Archive",
             "url":"https://github.com/PrejudiceNeutrino/YouTube_Channels",
             "desc":"A massive, categorized library of high-quality educational and science channels on YouTube.",
-            "icon":"sparkles",
+            "icon":"tv",
             
             "tags":[
                "education",
@@ -279,7 +279,7 @@
             "name":"Top Github Repos",
             "url":"https://md8-habibullah.github.io/top-github-repos-list/",
             "desc":"The ultimate developer guide sorting high-impact open-source repositories by category.",
-            "icon":"sparkles",
+            "icon":"terminal",
             
             "tags":[
                "github repo",
@@ -291,7 +291,7 @@
             "name":"Build Your Own X",
             "url":"https://github.com",
             "desc":"A brilliant compilation of step-by-step guides for re-creating favorite technologies from scratch.",
-            "icon":"sparkles",
+            "icon":"terminal",
             
             "tags":[
                "programming",
@@ -303,7 +303,7 @@
             "name":"Public API Layer",
             "url":"https://github.com/public-apis/public-apis",
             "desc":"A collective network directory tracking thousands of free public APIs for development.",
-            "icon":"sparkles",
+            "icon":"terminal",
             
             "tags":[
                "apis",
@@ -315,7 +315,7 @@
             "name":"Free For Dev",
             "url":"https://github.com/ripienaar/free-for-dev",
             "desc":"A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-            "icon":"sparkles",
+            "icon":"terminal",
             
             "tags":[
                "resources",
@@ -327,7 +327,7 @@
             "name":"SWE Blogs",
             "url":"https://github.com/kilimchoi/engineering-blogs",
             "desc":"A list of techincal blogs of software engeneering companies.",
-            "icon":"sparkles",
+            "icon":"terminal",
             
             "tags":[
                "blogs",
@@ -339,7 +339,7 @@
             "name":"Papers We Love",
             "url":"https://github.com/papers-we-love/papers-we-love",
             "desc":"This list contains computer science and other techincal research papers",
-            "icon":"sparkles",
+            "icon":"terminal",
             
             "tags":[
                "research papers",
@@ -357,7 +357,7 @@
             "name":"Programming Courses",
             "url":"https://github.com/EbookFoundation/free-programming-books",
             "desc":"A list of programming books and courses in multiple spoken languages.",
-            "icon":"sparkles",
+            "icon":"graduation-cap",
             
             "tags":[
                "courses",
@@ -371,7 +371,7 @@
             "name":"OSSU",
             "url":"https://github.com/ossu/computer-science",
             "desc":"Open Source Society University, Path to a free self-taught education in Computer Science.",
-            "icon":"sparkles",
+            "icon":"graduation-cap",
             
             "tags":[
                "computer science",
@@ -383,7 +383,7 @@
             "name":"Roadmap",
             "url":"https://roadmap.sh/",
             "desc":"Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-            "icon":"sparkles",
+            "icon":"graduation-cap",
             
             "tags":[
                "roadmap"
@@ -393,7 +393,7 @@
             "name":"System Design Primer",
             "url":"https://github.com/donnemartin/system-design-primer",
             "desc":"Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
-            "icon":"sparkles",
+            "icon":"graduation-cap",
             
             "tags":[
                "system design",
@@ -405,7 +405,7 @@
             "name":"Best Websites",
             "url":"https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
             "desc":"Best websites to visit for the people learning computer science to learn new things and always stay informed about tech",
-            "icon":"sparkles",
+            "icon":"graduation-cap",
             
             "tags":[
                "tech",
@@ -417,7 +417,7 @@
             "name":"ML From Scratch",
             "url":"https://github.com/eriklindernoren/ML-From-Scratch",
             "desc":"Python implementations of some of the fundamental Machine Learning models and algorithms from scratch.",
-            "icon":"sparkles",
+            "icon":"graduation-cap",
             
             "tags":[
                "machine learning",
@@ -435,7 +435,7 @@
             "name":"Best Free Apps",
             "url":"https://github.com/Axorax/awesome-free-apps",
             "desc":"A curated list of the best free apps for PC (including Linux) and mobile.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -447,7 +447,7 @@
             "name":"OpenAltFinder",
             "url":"https://openaltfinder.com/",
             "desc":"Browse and find the free, self-hostable alternatives to the tools you rely on every day.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -459,7 +459,7 @@
             "name":"AI Tools",
             "url":"https://raw.githubusercontent.com/lakey009/AI-Tools-List/refs/heads/main/AIToolsList.json",
             "desc":"A curated JSON-based directory of AI-powered tools, services, and platforms.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -471,7 +471,7 @@
             "name":"SelfHosted Apps",
             "url":"https://awesome-selfhosted.net/",
             "desc":"A list of Free Software network services and web applications which can be hosted on your own server.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -483,7 +483,7 @@
             "name":"FOSS Alternatives",
             "url":"https://github.com/geraldohomero/best-foss-alternatives",
             "desc":"A List of the Best Free and Open Source (not all) Software Alternatives for Security and Privacy.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -495,7 +495,7 @@
             "name":"EuroStack",
             "url":"https://euro-stack.com/",
             "desc":"A list of trusted European services and open source technologies to put you in control of your digital stack.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -507,7 +507,7 @@
             "name":"European Tech Map",
             "url":"https://europeantechmap.eu/",
             "desc":"A list of trusted European services and open source technologies.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -519,7 +519,7 @@
             "name":"OpenAlternative",
             "url":"https://openalternative.co/",
             "desc":"A constantly updated ist of open source alternatives to popular softwares.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -531,7 +531,7 @@
             "name":"FOSSHub",
             "url":"https://openalternative.co/",
             "desc":"A software hub to download the FOSS softwares.",
-            "icon":"sparkles",
+            "icon":"shuffle",
             
             "tags":[
                "free alternatives",
@@ -564,7 +564,7 @@
       {
         "name": "123apps",
         "url": "https://123apps.com",
-        "icon": "tool",
+        "icon": "sparkles",
         "tags": [
           "tools",
           "video",
@@ -580,7 +580,7 @@
       {
         "name": "All in One Tools",
         "url": "https://allinone.tools/",
-        "icon": "tool",
+        "icon": "sparkles",
         "tags": [
           "tools",
           "social",
@@ -601,7 +601,7 @@
       {
         "name": "Free Music Archive",
         "url": "https://freemusicarchive.org",
-        "icon": "music",
+        "icon": "volume-2",
         "tags": [
           "audio",
           "music",
@@ -616,7 +616,7 @@
       {
         "name": "Mixkit Audio",
         "url": "https://mixkit.co/free-sound-effects/",
-        "icon": "volume",
+        "icon": "volume-2",
         "tags": [
           "audio",
           "music",
@@ -632,7 +632,7 @@
       {
         "name": "Incompetech",
         "url": "https://incompetech.com",
-        "icon": "audio",
+        "icon": "volume-2",
         "tags": [
           "audio",
           "music",
@@ -653,6 +653,7 @@
          {
             "name":"Project Gutenberg",
             "url":"https://gutenberg.org",
+            "icon": "book-open",
             "tags":[
                "Public Domain",
                "Classic Literature",
@@ -664,6 +665,7 @@
          {
             "name":"Open Library",
             "url":"https://openlibrary.org",
+            "icon": "book-open",
             "tags":[
                "General Fiction",
                "Biographies",
@@ -676,17 +678,19 @@
          {
             "name":"Standard Ebooks",
             "url":"https://standardebooks.org",
+            "icon": "book-open",
             "tags":[
                "Typography-formatted Classics",
                "Free Ebooks",
                "Public Domain"
             ],
             
-            "desc":"A volunteer-driven project that re-formats public domain books into beautiful, modern, typography-accurate ebooks."
+            "desc":"A project that re-formats public domain books into beautiful, modern, typography-accurate ebooks."
          },
          {
             "name":"IT Ebooks",
             "url":"https://it-ebooks.info/",
+            "icon": "book-open",
             "tags":[
                "Typography-formatted Classics",
                "Free Ebooks",
@@ -695,11 +699,12 @@
                "Kindle Books"
             ],
             
-            "desc":"Most popular IT and Computer Science E-books."
+            "desc":"A collection of Most popular IT and Computer Science Ebooks."
          },
          {
             "name":"PDFDrive",
             "url":"https://www.pdfdrive.com/",
+            "icon": "book-open",
             "tags":[
                "Typography-formatted Classics",
                "Free Ebooks",
@@ -709,11 +714,12 @@
                "Kindle Books"
             ],
             
-            "desc":"A free search engine which allows you to search, preview and download millions of PDF files into your devices"
+            "desc":"A free search engine which allows you to search, preview and download millions of PDF files."
          },
          {
             "name":"OceanPDF",
             "url":"https://oceanofpdf.com/",
+            "icon": "book-open",
             "tags":[
                "Typography-formatted Classics",
                "Free Ebooks",
@@ -734,6 +740,7 @@
          {
             "name":"itch.io",
             "url":"https://itch.io",
+            "icon": "gamepad-2",
             "tags":[
                "Indie Games",
                "Game Jams",
@@ -748,6 +755,7 @@
          {
             "name":"Poki",
             "url":"https://poki.com",
+            "icon": "gamepad-2",
             "tags":[
                "Cross-Platform",
                "Casual Games",
@@ -762,6 +770,7 @@
          {
             "name":"CrazyGames",
             "url":"https://www.crazygames.com",
+            "icon": "gamepad-2",
             "tags":[
                "Arcade",
                "Multiplayer",
@@ -776,6 +785,7 @@
          {
             "name":"Y8 Games",
             "url":"https://www.y8.com",
+            "icon": "gamepad-2",
             "tags":[
                "Multiplayer",
                "Retro Arcade",
@@ -790,6 +800,7 @@
          {
             "name":"Newgrounds",
             "url":"https://newgrounds.com",
+            "icon": "gamepad-2",
             "tags":[
                "Indie Animation",
                "Flash Legacy",
@@ -804,6 +815,7 @@
          {
             "name":"Armor Games",
             "url":"https://armorgames.com",
+            "icon": "gamepad-2",
             "tags":[
                "Classic Flash",
                "Strategy",
@@ -818,6 +830,7 @@
          {
             "name":"Kongregate",
             "url":"https://kongregate.com",
+            "icon": "gamepad-2",
             "tags":[
                "Achievements",
                "Community",
@@ -832,6 +845,7 @@
          {
             "name":"Quenq",
             "url":"https://quenq.com/",
+            "icon": "gamepad-2",
             "tags":[
                "Achievements",
                "Community",
@@ -852,7 +866,7 @@
       {
         "name": "Spotify Downloader",
         "url": "https://spotidown.co/en6",
-        "icon": "music",
+        "icon": "download",
         "tags": [
           "audio",
           "music",
@@ -865,7 +879,7 @@
       {
         "name": "Vids Save",
         "url": "https://vidssave.com/youtube-music-download-2az",
-        "icon": "video",
+        "icon": "download",
         "tags": [
           "audio",
           "music",
@@ -899,7 +913,7 @@
       {
         "name": "LibreOffice",
         "url": "https://www.libreoffice.org/",
-        "icon": "book",
+        "icon": "file-text",
         "tags": [
           "productivity",
           "office",
@@ -912,7 +926,7 @@
       {
         "name": "WPS Office",
         "url": "https://www.wps.com/",
-        "icon": "sparkles",
+        "icon": "file-text",
         "tags": [
           "productivity",
           "office",
@@ -925,7 +939,7 @@
       {
         "name": "MassGrave",
         "url": "https://massgrave.dev/genuine-installation-media",
-        "icon": "code",
+        "icon": "file-text",
         "tags": [
           "productivity",
           "office",
@@ -945,7 +959,7 @@
       {
         "name": "Unsplash",
         "url": "https://unsplash.com",
-        "icon": "image",
+        "icon": "layers",
         "tags": [
           "design",
           "images",
@@ -959,7 +973,7 @@
       {
         "name": "Pexels",
         "url": "https://pexels.com",
-        "icon": "video",
+        "icon": "layers",
         "tags": [
           "design",
           "images",
@@ -973,7 +987,7 @@
       {
         "name": "Pixabay",
         "url": "https://pixabay.com/",
-        "icon": "palette",
+        "icon": "layers",
         "tags": [
           "design",
           "images",
@@ -987,7 +1001,7 @@
       {
         "name": "Tabler Icons",
         "url": "https://tabler.io",
-        "icon": "sparkles",
+        "icon": "layers",
         "tags": [
           "design",
           "icons",
@@ -1001,7 +1015,7 @@
       {
         "name": "Icons8",
         "url": "https://icons8.com/icons",
-        "icon": "palette",
+        "icon": "layers",
         "tags": [
           "design",
           "icons",
@@ -1015,7 +1029,7 @@
       {
         "name": "1001 Free Fonts",
         "url": "https://www.1001freefonts.com/",
-        "icon": "type",
+        "icon": "layers",
         "tags": [
           "design",
           "fonts",
@@ -1059,7 +1073,7 @@
       {
         "name": "OpenShot",
         "url": "https://www.openshot.org/",
-        "icon": "film",
+        "icon": "video",
         "tags": [
           "video",
           "editing",
@@ -1071,7 +1085,7 @@
       {
         "name": "Photopea",
         "url": "https://photopea.com",
-        "icon": "palette",
+        "icon": "image",
         "tags": [
           "design",
           "editing",
@@ -1084,7 +1098,7 @@
       {
         "name": "Polotno Studio",
         "url": "https://polotno.dev",
-        "icon": "palette",
+        "icon": "image",
         "tags": [
           "design",
           "templates",
@@ -1093,7 +1107,7 @@
           "editing"
         ],
         
-        "desc": "A powerful, drag-and-drop graphic design web application serving as a signup-free Canva alternative."
+        "desc": "A powerful, graphic design web application serving as a signup-free Canva alternative."
       },
       {
         "name": "Gimp",
@@ -1107,7 +1121,7 @@
           "editing"
         ],
         
-        "desc": "The official desktop suite for the GNU Image Manipulation Program, providing robust tools for high-quality photo manipulation and original artwork creation."
+        "desc": "The official desktop suite for high-quality photo manipulation and original artwork creation."
       }
     ]
   }
